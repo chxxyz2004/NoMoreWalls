@@ -8,14 +8,14 @@
 6,https://freefq.neocities.org/free.txt,0
 7,https://freefq.neocities.org/free.xml,0
 8,https://oss.v2rayse.com/proxies/data/2023-10-29/HxMG7Fo.txt,27
-9,https://prop.cf/?name=paimon&client=base64,1
+9,https://prop.cf/?name=paimon&client=base64,2
 10,https://raw.githubusercontent.com/abshare/abshare.github.io/main/README.md,130
 11,https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2,2
 12,https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml,271
-13,https://raw.githubusercontent.com/freefq/free/master/v2,9
+13,https://raw.githubusercontent.com/freefq/free/master/v2,12
 14,https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml,13
 15,https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD,95
-16,https://raw.githubusercontent.com/mianfeifq/share/main/README.md,182
+16,https://raw.githubusercontent.com/mianfeifq/share/main/README.md,179
 17,https://raw.githubusercontent.com/mksshare/mksshare.github.io/main/README.md,140
 18,https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash,20
 19,https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub,20
@@ -26,4 +26,4 @@
 24,dynamic://kkzui,0
 25,dynamic://sharkdoor,7
 
-总计,,450
+总计,,448
