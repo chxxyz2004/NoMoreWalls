@@ -396,7 +396,6 @@ payload:
 - DOMAIN-SUFFIX,hosting.co.uk
 - DOMAIN-SUFFIX,hwcdn.net
 - DOMAIN-SUFFIX,jtvnw.net
-- DOMAIN-SUFFIX,linksalpha.com
 - DOMAIN-SUFFIX,manyvids.com
 - DOMAIN-SUFFIX,myactimes.com
 - DOMAIN-SUFFIX,newsblur.com
@@ -439,7 +438,6 @@ payload:
 - DOMAIN-SUFFIX,adblockplus.org
 - DOMAIN-SUFFIX,adobe.com
 - DOMAIN-SUFFIX,alfredapp.com
-- DOMAIN-SUFFIX,amplitude.com
 - DOMAIN-SUFFIX,ampproject.org
 - DOMAIN-SUFFIX,angularjs.org
 - DOMAIN-SUFFIX,aolcdn.com
@@ -574,7 +572,6 @@ payload:
 - DOMAIN-SUFFIX,playstation.com.hk
 - DOMAIN-SUFFIX,playstation.net
 - DOMAIN-SUFFIX,playstationnetwork.com
-- DOMAIN-SUFFIX,pushwoosh.com
 - DOMAIN-SUFFIX,rime.im
 - DOMAIN-SUFFIX,shazam.com
 - DOMAIN-SUFFIX,skype.com
@@ -614,7 +611,6 @@ payload:
 - DOMAIN-SUFFIX,ublock.org
 - DOMAIN-SUFFIX,ubnt.com
 - DOMAIN-SUFFIX,ulyssesapp.com
-- DOMAIN-SUFFIX,urchin.com
 - DOMAIN-SUFFIX,usertrust.com
 - DOMAIN-SUFFIX,v.gd
 - DOMAIN-SUFFIX,v2ex.com
@@ -633,7 +629,6 @@ payload:
 - DOMAIN-SUFFIX,wp.com
 - DOMAIN-SUFFIX,xda-developers.com
 - DOMAIN-SUFFIX,xeeno.com
-- DOMAIN-SUFFIX,xiti.com
 - DOMAIN-SUFFIX,ying.com
 - DOMAIN-SUFFIX,yoyo.org
 - IP-CIDR,91.108.16.0/22
