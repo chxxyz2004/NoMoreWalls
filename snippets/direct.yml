@@ -64,6 +64,7 @@ payload:
 - DOMAIN-SUFFIX,meipai.com
 - DOMAIN-SUFFIX,zmzapi.com
 - DOMAIN-SUFFIX,zimuzu.tv
+- DOMAIN-SUFFIX,zmzfile.com
 - DOMAIN-SUFFIX,zmzapi.net
 - DOMAIN-SUFFIX,baduziyuan.com
 - DOMAIN-SUFFIX,com-hs-hkdy.com
@@ -176,6 +177,7 @@ payload:
 - DOMAIN-SUFFIX,dgtle.com
 - DOMAIN-SUFFIX,dianping.com
 - DOMAIN-SUFFIX,douban.com
+- DOMAIN-SUFFIX,easou.com
 - DOMAIN-SUFFIX,ele.me
 - DOMAIN-SUFFIX,feng.com
 - DOMAIN-SUFFIX,fir.im
