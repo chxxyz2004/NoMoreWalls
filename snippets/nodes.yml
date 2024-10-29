@@ -1,83 +1,113 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 077
-  network: ws
-  port: 2086
-  server: 104.16.61.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: ury-unit-c030ehei8.poget71138.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: '12|美国 CloudFlare节点 #7'
+  name: 13|加拿大 151
   network: ws
   port: 2095
-  server: 172.64.99.22
+  server: 104.26.5.145
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
       Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 19|🇺🇸 美国|@ripaojiedian
-  password: -4-M1Q%$He
-  port: 14416
-  server: 150.241.95.62
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 2|🇨🇳_CN_中国->🇺🇸_US_美国
-  network: ws
-  port: 16928
-  server: vip3.niuniupremium.xyz
-  tls: false
-  type: vmess
-  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '12,14|美国 CloudFlare节点 #8'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
     path: /
-- name: 13|加拿大 026
-  network: ws
-  password: trojan
-  port: 443
-  server: 172.67.130.66
-  skip-cert-verify: true
-  sni: test-a23.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: test-a23.pages.dev
-    path: /?ed=2560
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19,20|🇩🇪 德国2|@ripaojiedian
+  port: 33288
+  server: 183.236.48.166
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '12|美国 CloudFlare节点 #3'
+  name: 13|加拿大 145
   network: ws
   port: 2082
-  server: 172.64.166.33
+  server: 104.20.25.146
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 071
+  network: ws
+  port: 8080
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: 6c47-butterfly-6c47.yexoji3749.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 055
+  network: ws
+  port: 443
+  server: 188.114.96.1
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: afrhms16v.bestxray.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 235
+  network: ws
+  port: 2095
+  server: 104.19.38.12
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 21|SCP2
+  network: ws
+  port: '443'
+  server: www.smcacre.gov
+  servername: www.smcacre.gov
+  tls: true
+  type: vmess
+  uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b
+  ws-opts:
+    headers:
+      Host: lajihuawei.com
+    path: /3cc8e2d2
+- client-fingerprint: chrome
+  name: 19|🇯🇵 日本2|@ripaojiedian
+  password: 5b4becce-5739-483f-97ec-68b81a855d68
+  port: 13013
+  server: naiu-jp.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|美国 079
+  network: ws
+  port: 2082
+  server: 104.19.45.13
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
@@ -85,6 +115,360 @@ proxies:
     headers:
       Host: ip3.6929198.xyz
     path: github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19,20|🇺🇸 美国3|@ripaojiedian
+  port: 39041
+  server: 183.238.202.173
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 070
+  network: ws
+  port: 443
+  server: 172.67.179.199
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 1
+  cipher: auto
+  delay: 1477
+  name: 13|瑞士 003
+  network: ws
+  port: 443
+  server: 186.190.215.32
+  servername: 186.190.215.32
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.32
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  delay: 1125
+  name: 13|美国 243
+  network: ws
+  port: 2082
+  server: 172.64.166.20
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__10
+  network: ws
+  port: 2052
+  server: 104.19.46.123
+  sni: cdn2.freegradely.xyz
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+- alterId: 1
+  cipher: auto
+  delay: 1262
+  name: 13|加拿大 064
+  network: ws
+  port: 443
+  server: e.masjide.org
+  servername: e.masjide.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: e.masjide.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
+  network: ws
+  port: 16928
+  server: 120.232.240.56
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts: {}
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13|日本 003
+  network: ws
+  port: 30005
+  server: 104.233.170.150
+  servername: www.42703225.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.42703225.xyz
+    path: /path/351212081517
+- alterId: 0
+  cipher: auto
+  name: 14|github.com/freefq - 广东省移动 7
+  network: ws
+  port: '20401'
+  server: data-us-v1.shwjfkw.cn
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-us-v1.shwjfkw.cn
+    path: /debian
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 184
+  network: ws
+  port: 2095
+  server: www.visa.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__13
+  network: ws
+  port: 2086
+  server: 104.19.46.233
+  sni: ''
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 002
+  network: ws
+  port: 2095
+  server: 23.227.38.3
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 060
+  network: ws
+  port: 2082
+  server: 172.64.175.213
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '2|🇺🇸_US_美国->🇮🇳_IN_印度 #1'
+  network: ws
+  port: 2052
+  server: 172.67.164.78
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: in3.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 174
+  network: ws
+  port: 443
+  server: 104.21.44.106
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /linkws
+- alterId: 1
+  cipher: auto
+  name: 13|加拿大 022
+  network: ws
+  port: 443
+  server: e.seribus.org
+  servername: e.seribus.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: e.seribus.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 054
+  network: ws
+  port: 2095
+  server: 104.21.238.101
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip3.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 044
+  network: ws
+  port: 2095
+  server: 172.67.70.92
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇺🇸_US_美国 #4'
+  network: ws
+  port: 2082
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
+  ws-opts: {}
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 19|🇹🇼 台湾|@ripaojiedian
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 7c0ad96494.microsoft.com
+    mode: http
+  port: 1170
+  server: 163.177.58.179
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  delay: 804
+  name: 13|美国 198
+  network: ws
+  port: 2095
+  server: 104.19.45.13
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 137
+  network: ws
+  port: 2095
+  server: 104.19.45.11
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 13|加拿大 008
+  network: ws
+  port: 443
+  server: d.ritchier.info
+  servername: d.ritchier.info
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: d.ritchier.info
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 035
+  network: ws
+  port: 443
+  server: 188.114.97.210
+  servername: linde06.indiavideo.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 191
+  network: ws
+  port: 8080
+  server: m001.mmzhk.website
+  servername: m001.mmzhk.website
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b54e6bc4-5e3f-45a3-94bf-0920d45781c5
+  ws-opts:
+    headers:
+      Host: daohang.mmzhk.website
+    path: /xyz
+- alterId: 1
+  cipher: auto
+  name: 13|美国 133
+  network: ws
+  port: 443
+  server: ds.nurul.homes
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ds.nurul.homes
+    path: /
 - alterId: 1
   cipher: auto
   name: 13|加拿大 089
@@ -101,16 +485,2740 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2|🇺🇸_US_美国 #1'
+  delay: 2559
+  name: 13|美国 228
+  network: ws
+  port: 443
+  server: 104.21.29.88
+  servername: 1e9e9.olielielie.store
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: bfb2c6c5-1b3e-4b2a-b971-9db091735363
+  ws-opts:
+    headers:
+      Host: 1e9e9.olielielie.store
+    path: /vmess
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 19|🇨🇦 加拿大|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 149.22.95.183
+  tfo: false
+  type: ss
+- name: 13|美国 081
+  network: ws
+  password: bpb-trojan
+  port: 2053
+  server: 188.114.99.208
+  skip-cert-verify: true
+  sni: BPB-worKEr-pANel1-E4p.PAgES.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: BPB-worKEr-pANel1-E4p.PAgES.Dev
+    path: /tr9pU4LSFNK5k8URSo/ZGUucmFkaWNhbGx5LnBybw==
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 135
+  network: ws
+  port: 2082
+  server: 104.20.17.186
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip6.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 052
+  network: ws
+  port: 443
+  server: hms24.ivideos.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ivideos.sbs
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 44.244.21.125
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 19|🇸🇬 新加坡|@ripaojiedian
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 7c0ad96494.microsoft.com
+    mode: http
+  port: 1190
+  server: 163.177.58.179
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 067
+  network: ws
+  port: 2095
+  server: 104.19.21.63
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 217
+  network: ws
+  port: 2095
+  server: 104.19.45.15
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 021
+  network: ws
+  port: 80
+  server: cf.hy2.one
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5593317a-b77d-45d0-b1a0-51e657a0e7ef
+  ws-opts:
+    headers:
+      Host: tw02.hy2.one
+    path: /af323d
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇯🇵 日本3|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.215.69
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 192
+  network: ws
+  port: 2095
+  server: 104.26.7.132
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 873
+  name: 13|美国 213
+  network: ws
+  port: 2082
+  server: 172.64.166.16
+  servername: ip14.6929198.xyz
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip14.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇺🇸_US_美国 #6'
+  network: ws
+  port: 8080
+  server: russia.com
+  tls: false
+  type: vmess
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  delay: 2163
+  name: 13|美国 226
+  network: ws
+  port: 443
+  server: 151.101.194.133
+  servername: gerMAnyISvP.iR
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
+  ws-opts:
+    headers:
+      Host: gerMAnyISvP.iR
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: 13|美国 058
+  network: ws
+  port: 443
+  server: 104.21.83.115
+  servername: hms02.fxiaomi.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
+    path: /
+- cipher: aes-256-cfb
+  name: 1|_FR_->_RU_
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 163.172.64.22
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|瑞典 002
+  network: ws
+  port: 443
+  server: 185.146.173.129
+  servername: nt-haze-7dad.rogap16875.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: nt-haze-7dad.rogap16875.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 128
+  network: ws
+  port: 2082
+  server: 104.26.5.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 037
+  network: ws
+  port: 443
+  server: 188.114.97.79
+  servername: linde06.indiavideo.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /
+- cipher: aes-256-cfb
+  name: 1|_US__5
+  password: amazonskr05
+  port: 443
+  server: 3.39.227.28
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 125
+  network: ws
+  port: 2082
+  server: 104.19.45.11
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 053
+  network: ws
+  port: 2095
+  server: 172.64.166.28
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 119
+  network: ws
+  port: 2095
+  server: 104.19.123.11
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,3,8,22|_US__3
+  network: ws
+  port: 2086
+  server: 104.19.57.4
+  sni: ip11.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 216
+  network: ws
+  port: 2095
+  server: 104.20.17.186
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 234
+  network: ws
+  port: 2095
+  server: 104.19.42.49
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 12,14,14,14|印度 v2rayfree.eu.org
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 13|塞浦路斯 004
+  network: ws
+  port: 80
+  server: go.alipay.ovh
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
+  ws-opts:
+    headers:
+      Host: open.alipay.ovh
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 006
+  network: ws
+  port: 443
+  server: 173.245.59.8
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: 77h2quiet-dream-5c34.foratay741.workers.dev
+    path: /
+- name: 13|加拿大 054
+  network: ws
+  password: E-Graphic
+  port: 443
+  server: 104.17.147.22
+  skip-cert-verify: true
+  sni: gcnwoegp2rjvyl7qmmy3ltqtaf3q22.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: gcnwoegp2rjvyl7qmmy3ltqtaf3q22.pages.dev
+    path: /proxyip=62.3.12.185
+- alterId: 0
+  cipher: auto
+  name: 14|github.com/freefq - 美国CloudFla...
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 13|美国 192
+  network: ws
+  port: 443
+  server: c.kandap.homes
+  servername: c.kandap.homes
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: c.kandap.homes
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 132
+  network: ws
+  port: 2095
+  server: 104.26.5.123
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1577
+  name: 13|美国 246
+  network: ws
+  port: 2095
+  server: 172.64.167.10
+  servername: ip14.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip14.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  delay: 1674
+  name: 13|美国 159
+  network: ws
+  port: 443
+  server: c.serkat.org
+  servername: c.serkat.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: c.serkat.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 075
+  network: ws
+  port: 2082
+  server: 104.26.5.56
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1338
+  name: 13|加拿大 272
+  network: ws
+  port: 2082
+  server: 104.19.38.12
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 077
+  network: ws
+  port: 2086
+  server: 104.16.61.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ury-unit-c030ehei8.poget71138.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 1
+  cipher: auto
+  name: 13|美国 128
+  network: ws
+  port: 443
+  server: bs.masjidd.homes
+  servername: bs.masjidd.homes
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: bs.masjidd.homes
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 13|加拿大 038
+  network: ws
+  port: 443
+  server: fapeng.org
+  servername: fapeng.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: fapeng.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 169
+  network: ws
+  port: 2095
+  server: 172.64.167.44
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19,20|🇩🇪 德国|@ripaojiedian
+  port: 43526
+  server: 120.232.153.71
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇺🇸_US_美国 #5'
+  network: ws
+  port: 2086
+  server: 104.19.32.46
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 13|美国 173
+  network: ws
+  port: 443
+  server: 104.21.94.168
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 012
+  network: ws
+  port: 2082
+  server: 104.16.61.8
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ury-unit-c030ehei8.poget71138.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 219
+  network: ws
+  port: 2095
+  server: 172.64.167.5
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 023
+  network: ws
+  port: 8880
+  server: 104.16.60.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: square-snowflake-486a.beshir-beisel.workers.dev
+    path: /linde06.indiavideo.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 13|美国 119
+  network: ws
+  port: 2086
+  server: 104.21.89.219
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  ws-opts:
+    headers:
+      Host: shs.xiaoqi666.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 033
+  network: ws
+  port: 8080
+  server: n010.kovmk.website
+  servername: n010.kovmk.website
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2a512ec5-60f4-472b-9e67-6fa86aed6499
+  ws-opts:
+    headers:
+      Host: daohang.kovmk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 115
+  network: ws
+  port: 2095
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 19,20|🇭🇰 香港R|@ripaojiedian
+  obfs: plain
+  obfs-param: 8195986416.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40206
+  protocol: auth_aes128_md5
+  protocol-param: 86416:SlZFuy
+  server: 7438974b54cf5c57.cdn.jiashule.com
+  type: ssr
+- alterId: 1
+  cipher: auto
+  name: 13|美国 067
+  network: ws
+  port: 443
+  server: b.besar.homes
+  servername: b.besar.homes
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: b.besar.homes
+    path: /
+- name: 13|加拿大 026
+  network: ws
+  password: trojan
+  port: 443
+  server: 172.67.130.66
+  skip-cert-verify: true
+  sni: test-a23.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: test-a23.pages.dev
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 069
+  network: ws
+  port: 2082
+  server: 104.19.32.216
+  servername: ip18.6929198.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 057
+  network: ws
+  port: 443
+  server: 173.245.58.37
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: 7wih-darkness-f0af.jivegoh116.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 085
+  network: ws
+  port: 8880
+  server: 104.16.67.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: worker-divine-hat-02d6.savofir317.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 188
+  network: ws
+  port: 2082
+  server: 104.19.45.15
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 256
+  network: ws
+  port: 2095
+  server: 162.159.140.56
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 181
+  network: ws
+  port: 2082
+  server: 104.19.45.35
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 149
+  network: ws
+  port: 2086
+  server: 104.16.68.38
+  tls: false
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: rough-wildflower-0b5e.zemel-yesenia1720.workers.dev
+    path: /glweidf.sbs/linkws
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 19|🇭🇰 香港4|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 38.147.190.72
+  tfo: false
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 13|美国 077
+  network: ws
+  port: 443
+  server: e.ritchier.info
+  servername: e.ritchier.info
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: e.ritchier.info
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 095
+  network: ws
+  port: 2086
+  server: shs.xiaoqi666.xyz
+  tls: false
+  type: vmess
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  ws-opts:
+    headers:
+      Host: shs.xiaoqi666.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 070
+  network: ws
+  port: 2082
+  server: 104.19.38.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__1
+  network: ws
+  port: 2086
+  server: 104.19.38.62
+  sni: ip004.dtku47.xyz
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__14
+  network: ws
+  port: 2086
+  server: 104.19.46.59
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 113
+  network: ws
+  port: 2082
+  server: 104.19.42.49
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 813
+  name: 13|美国 134
+  network: ws
+  port: 2082
+  server: 172.64.167.19
+  servername: ip18.6929198.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|美国 141
+  network: ws
+  port: 2082
+  server: 172.64.167.5
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 19|🇰🇷 韩国2|@ripaojiedian
+  password: f2a7baac-c6d4-4d29-aab2-02426814f0ce
+  port: 40015
+  server: hzhz2.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|美国 171
+  network: ws
+  port: 443
+  server: speedtest.net
+  tls: true
+  type: vmess
+  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
+  ws-opts:
+    headers:
+      Host: mehrjavan.ir
+    path: /m28jcoZZUhkqg6pk11
+- alterId: 0
+  cipher: auto
+  name: '2|🇷🇺_RU_俄罗斯联邦 #1'
+  network: ws
+  port: 12910
+  server: 45.136.245.240
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 2086
+  server: 172.64.175.213
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 103
+  network: ws
+  port: 8080
+  server: 104.16.67.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: square-snowflake-486a.beshir-beisel.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 114
+  network: ws
+  port: 2082
+  server: 172.67.75.172
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 2|🇷🇺_RU_俄罗斯联邦
+  network: tcp
+  port: 35972
+  server: 45.147.200.170
+  tls: false
+  type: vmess
+  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 212
+  network: ws
+  port: 2082
+  server: singapore.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- name: 13|巴西 002
+  network: ws
+  password: trojan
+  port: 443
+  server: 185.133.35.46
+  skip-cert-verify: true
+  sni: test-a23.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: test-a23.pages.dev
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 138
+  network: ws
+  port: 2082
+  server: 104.19.45.17
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip6.6929198.xyz
+    path: /
+- delay: 1795
+  name: 13|印度 001
+  network: tcp
+  password: '!!str 3690911436885991424'
+  port: 443
+  server: 5.8.35.45
+  sni: careful-platypus.opossum872.cfd
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|韩国 001
+  network: tcp
+  port: 20937
+  server: 45.94.68.200
+  tls: false
+  type: vmess
+  uuid: c0e6d2ab-9fc2-4a0f-8011-844e5b45ec0c
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 025
+  network: ws
+  port: 443
+  server: 104.21.9.236
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 059
+  network: ws
+  port: 2095
+  server: 104.19.45.47
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US_->_CA__1
+  network: ws
+  port: 2086
+  server: 104.19.47.79
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  delay: 1339
+  name: 13|加拿大 102
+  network: ws
+  port: 2095
+  server: 104.26.5.90
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
   network: ws
   port: 2052
-  server: hk.wish.ml
+  server: p3.v2raybrasil.cloud
+  tls: false
+  type: vmess
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 2|🇩🇪_DE_德国
+  network: ws
+  port: 45103
+  server: de-frankfurt-oracle-b26cf5.ip1.shop
+  tls: false
+  type: vmess
+  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 13|日本 008
+  network: tcp
+  port: 14072
+  server: 45.159.50.65
+  tls: false
+  type: vmess
+  uuid: 1a72c7ca-ff6c-4dd8-8efe-388d2bfdf92f
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 053
+  network: ws
+  port: 443
+  server: 104.21.55.234
+  servername: gwdef.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /
+- name: 13|加拿大 046
+  network: ws
+  password: auto
+  port: 443
+  server: 162.159.153.132
+  sni: tg.cmliussss.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tg.cmliussss.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 241
+  network: ws
+  port: 2095
+  server: 104.19.46.103
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 222
+  network: ws
+  port: 2095
+  server: 104.26.5.113
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 001
+  network: ws
+  port: 2095
+  server: 162.159.140.33
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 233
+  network: ws
+  port: 2082
+  server: 104.19.45.42
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  delay: 2185
+  name: 13|加拿大 062
+  network: ws
+  port: 443
+  server: serkat.org
+  servername: serkat.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: serkat.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US_->_CA__3
+  network: ws
+  port: 2086
+  server: 104.19.47.32
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 1
+  cipher: auto
+  name: 13|加拿大 040
+  network: ws
+  port: 443
+  server: bukitk.homes
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: bukitk.homes
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸_US_美国->🇮🇳_IN_印度
+  network: ws
+  port: 2052
+  server: 104.17.156.224
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: in4.wish.ml
+    path: /
+- delay: 1195
+  name: 13|美国 088
+  network: ws
+  password: auto
+  port: 2083
+  server: 104.16.134.27
+  sni: trojanfree-76s.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojanfree-76s.pages.dev
+    path: /trojanfree-76s.pages.dev/?ed=2560..
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 19|🇯🇵 日本4|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '2|🇺🇸_US_美国 #2'
+  network: ws
+  port: 34053
+  server: us-sanfrancisco-02.t3csyun.buzz
+  tls: false
+  type: vmess
+  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  delay: 2644
+  name: 13|加拿大 274
+  network: ws
+  port: 2082
+  server: fbi.gov
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  delay: 1224
+  name: 13|德国 010
+  network: ws
+  port: 443
+  server: 23.157.88.6
+  servername: 23.157.88.6
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.157.88.6
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 141
+  network: ws
+  port: 2082
+  server: 162.159.140.45
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|瑞典 001
+  network: ws
+  port: 443
+  server: 185.146.173.158
+  servername: jahfkjha.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 023
+  network: ws
+  port: 443
+  server: 104.20.39.186
+  servername: vmess.taxar71054.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: vmess.taxar71054.workers.dev
+    path: /
+- cipher: aes-256-cfb
+  name: 1|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: 13|加拿大 043
+  network: ws
+  port: 443
+  server: seribus.org
+  servername: seribus.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: seribus.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 066
+  network: ws
+  port: 2082
+  server: 104.26.4.60
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 19|🇹🇼 台湾2|@ripaojiedian
+  password: Paofu
+  plugin: obfs
+  plugin-opts:
+    host: 7c0ad96494.microsoft.com
+    mode: http
+  port: 1171
+  server: 163.177.58.179
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 099
+  network: ws
+  port: 2086
+  server: 172.67.165.53
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  ws-opts:
+    headers:
+      Host: shs.xiaoqi666.xyz
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 13|美国 002
+  network: ws
+  port: 443
+  server: jannah.homes
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: jannah.homes
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US_->_CA__4
+  network: ws
+  port: 2086
+  server: 104.19.45.47
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 1
+  cipher: auto
+  name: 13|美国 084
+  network: ws
+  port: 443
+  server: b.tampay.info
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: b.tampay.info
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|美国 130
+  network: ws
+  port: 2095
+  server: 172.64.166.32
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1853
+  name: 13|加拿大 198
+  network: ws
+  port: 2095
+  server: 104.26.0.56
+  servername: ip10.6016725.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip10.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|美国 040
+  network: ws
+  port: 2082
+  server: 172.64.167.8
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip16.6929198.xyz
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 3,22|🇨🇳_CN_中国
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12,14|美国 CloudFlare节点
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__6
+  network: ws
+  port: 2086
+  server: 104.20.25.146
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 13|俄罗斯 007
+  network: ws
+  port: 80
+  server: eedp257bubu2wefy1.lovebaipiao.net
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b9a6438-84d3-419e-bc32-43acc74b1c3c
+  ws-opts:
+    headers:
+      Host: eedp257bubu2wefy1.lovebaipiao.net
+    path: /iphone
+- cipher: aes-256-gcm
+  name: 1|_US__7
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.114.114.207
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 014
+  network: ws
+  port: 2082
+  server: 104.19.57.4
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 13|加拿大 030
+  network: ws
+  port: 443
+  server: b.jannah.homes
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: b.jannah.homes
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 2115
+  name: 13|加拿大 270
+  network: ws
+  port: 2082
+  server: 104.26.5.113
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__2
+  network: ws
+  port: 2086
+  server: 104.19.47.122
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 111
+  network: ws
+  port: 80
+  server: 162.159.136.98
+  type: vmess
+  udp: true
+  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
+  ws-opts:
+    headers:
+      Host: rn2.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|github.com/freefq - 美国Fastly全球...
+  network: ws
+  port: 443
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: 13|美国 022
+  network: ws
+  port: 443
+  server: 104.21.74.239
+  servername: afrhms07.xfixedfloat.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+  ws-opts:
+    headers:
+      Host: afrhms07.xfixedfloat.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1127
+  name: 13|美国 197
+  network: ws
+  port: 2095
+  server: 172.64.167.35
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- name: 13|澳大利亚 003
+  network: ws
+  password: CMLiu
+  port: 443
+  server: 43.153.80.208
+  sni: aliorg.filegear-sg.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aliorg.filegear-sg.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 085
+  network: ws
+  port: 443
+  server: plex.com
+  tls: true
+  type: vmess
+  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
+  ws-opts:
+    headers:
+      Host: gerMAnyISvP.iR
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: 13,19,20|香港 006
+  network: tcp
+  port: 2902
+  server: 143.92.42.65
+  tls: false
+  type: vmess
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alterId: 1
+  cipher: auto
+  delay: 2630
+  name: 13|英国 017
+  network: ws
+  port: 443
+  server: 68.168.31.244
+  servername: 68.168.31.244
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 68.168.31.244
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|美国 165
+  network: ws
+  port: 2082
+  server: 172.64.166.28
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 061
+  network: ws
+  port: 2082
+  server: 172.64.166.8
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip16.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US_->_NL_
+  network: ws
+  port: 2086
+  server: 172.64.198.249
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 245
+  network: ws
+  port: 2095
+  server: malaysia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  name: 13|美国 161
+  network: ws
+  port: 443
+  server: b.serkat.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: b.serkat.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 083
+  network: ws
+  port: 2082
+  server: 172.64.166.33
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇸🇬 新加坡3|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.169.139.18
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|美国 105
+  network: ws
+  port: 2082
+  server: 172.64.167.25
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 017
+  network: ws
+  port: 2052
+  server: 104.18.25.92
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 3,22|🇺🇸_US_美国->🇨🇳_CN_中国
+  network: ws
+  port: 8080
+  server: 104.19.47.16
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts: {}
+- delay: 1357
+  name: 13|美国 166
+  network: ws
+  password: auto
+  port: 443
+  server: 159.246.55.132
+  skip-cert-verify: true
+  sni: vip.123789.pp.ua
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vip.123789.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 129
+  network: ws
+  port: 2082
+  server: 172.64.167.44
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 112
+  network: ws
+  port: 2082
+  server: 104.19.45.90
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  name: 13|美国 087
+  network: ws
+  port: 443
+  server: e.bukitk.homes
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: e.bukitk.homes
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 049
+  network: ws
+  port: 443
+  server: ParsVds.ir
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1092
+  name: 13|美国 132
+  network: ws
+  port: 2082
+  server: 172.64.166.32
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip6.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 193
+  network: ws
+  port: 2095
+  server: 162.159.140.66
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 129
+  network: ws
+  port: 2082
+  server: 104.19.58.175
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip15.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 045
+  network: ws
+  port: 2095
+  server: russia.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 2|🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 16928
+  server: vip3.niuniupremium.xyz
+  tls: false
+  type: vmess
+  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 073
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: telegram----cassiusvpn----2.ranob36907.workers.dev
+    path: /az05.beyondy.cfd:443/link
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 140
+  network: ws
+  port: 2052
+  server: 104.20.17.186
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 060
+  network: ws
+  port: 2095
+  server: 104.19.21.71
+  servername: ip15.6016725.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip15.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  delay: 1854
+  name: 13|加拿大 117
+  network: ws
+  port: 2095
+  server: 104.16.148.244
+  servername: ip2.6016725.xyz
+  skip-cert-verify: true
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|美国 153
+  network: ws
+  port: 2095
+  server: 172.64.166.12
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 2431
+  name: 13|加拿大 101
+  network: ws
+  port: 2082
+  server: 162.159.140.33
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 048
+  network: ws
+  port: 2082
+  server: 104.26.5.90
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 195
+  network: ws
+  port: 2095
+  server: 104.19.59.89
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 1
+  cipher: auto
+  delay: 1699
+  name: 13|美国 115
+  network: ws
+  port: 443
+  server: jamekk.org
+  servername: jamekk.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: jamekk.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  delay: 2404
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 13|意大利 001
+  network: http
+  port: 2098
+  server: 147.45.51.16
+  skip-cert-verify: true
+  type: vmess
+  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
+- alterId: 0
+  cipher: auto
+  name: 13|美国 056
+  network: ws
+  port: 443
+  server: 104.21.83.108
+  servername: hms02.fxiaomi.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: hms02.fxiaomi.sbs
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.142.50.59
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 098
+  network: ws
+  port: 443
+  server: irhms03.dongfeng.cfd
+  servername: hms03.dongfeng.cfd
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
+  ws-opts:
+    headers:
+      Host: hms03.dongfeng.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 086
+  network: ws
+  port: 443
+  server: 104.21.82.17
+  servername: gwdef.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: gwdef.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 168
+  network: ws
+  port: 2082
+  server: 104.26.5.123
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1717
+  name: 13|加拿大 105
+  network: ws
+  port: 443
+  server: e.kampong.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: e.kampong.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸_US_美国
+  network: ws
+  port: 2052
+  server: 104.16.38.71
   tls: false
   type: vmess
   uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
   ws-opts:
     headers:
       Host: us6_0.wish.ml
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1|_US__11
+  password: nEyOTWmtPG5tdgZqMQEq4R
+  port: 29814
+  server: 51.141.73.244
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 072
+  network: ws
+  port: 2082
+  server: 104.19.45.19
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 194
+  network: ws
+  port: 8080
+  server: 104.16.61.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: 6c47-butterfly-6c47.yexoji3749.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: 13|美国 063
+  network: ws
+  port: 8080
+  server: n009.kovmk.website
+  servername: n009.kovmk.website
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 83b2d0b9-d327-476d-ac3f-d5794505db15
+  ws-opts:
+    headers:
+      Host: daohang.kovmk.website
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  delay: 1380
+  name: 13|加拿大 100
+  network: ws
+  port: 2095
+  server: 104.19.45.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: '14|github.com/freefq - 美国CloudFla... #1'
+  network: ws
+  port: 8880
+  server: server32.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  ws-opts:
+    headers:
+      Host: server32.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 039
+  network: ws
+  port: 2095
+  server: 104.19.45.50
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 041
+  network: ws
+  port: 2082
+  server: 104.17.106.151
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 123
+  network: ws
+  port: 2095
+  server: 104.19.45.35
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__16
+  network: ws
+  port: 2086
+  server: 104.19.45.15
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 1
+  cipher: auto
+  name: 13|美国 127
+  network: ws
+  port: 443
+  server: be.anaviriti.info
+  servername: be.anaviriti.info
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: be.anaviriti.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 029
+  network: ws
+  port: 443
+  server: 188.114.96.5
+  servername: linde06.indiavideo.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__15
+  network: ws
+  port: 2086
+  server: 104.19.46.27
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /@HosseinStore_Za/@NEKO_Za
+  name: 13|德国 008
+  network: http
+  port: 34497
+  server: 195.254.165.63
+  servername: ttl.unique69.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 860a1295-0d81-403c-a179-97f396437809
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 178
+  network: ws
+  port: 2082
+  server: 104.19.21.63
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 1
+  cipher: auto
+  delay: 1697
+  name: 13|美国 193
+  network: ws
+  port: 443
+  server: d.kampong.org
+  servername: d.kampong.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: d.kampong.org
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 004
+  network: ws
+  port: 8080
+  server: 104.16.68.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: square-snowflake-486a.beshir-beisel.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__4
+  network: ws
+  port: 2086
+  server: 104.19.46.36
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 130
+  network: ws
+  port: 2095
+  server: 104.19.47.65
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 218
+  network: ws
+  port: 2082
+  server: 104.19.45.47
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- client-fingerprint: chrome
+  name: 19|🇸🇬 新加坡2|@ripaojiedian
+  password: 5b4becce-5739-483f-97ec-68b81a855d68
+  port: 13030
+  server: naiu-sg.05vr9nyqg5.download
+  skip-cert-verify: false
+  sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 051
+  network: ws
+  port: 443
+  server: 104.17.197.31
+  servername: quiet-moon-132a.xetag42714.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: quiet-moon-132a.xetag42714.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3,22|🇺🇸_US_美国->🇧🇷_BR_巴西
+  network: ws
+  port: 2052
+  server: 104.18.37.248
+  tls: false
+  type: vmess
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  ws-opts: {}
+- alterId: 1
+  cipher: auto
+  name: 13|加拿大 096
+  network: ws
+  port: 443
+  server: b.hungshing.org
+  servername: b.hungshing.org
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: b.hungshing.org
+    path: linkvws
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.169.135.226
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__12
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  sni: ''
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 019
+  network: ws
+  port: 2095
+  server: icook.tw
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip15.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 092
+  network: ws
+  port: 8880
+  server: 104.16.68.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: subhk.osafari599.workers.dev
+    path: /
+- delay: 1742
+  name: 13|瑞典 003
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.20.28.151
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 011
+  network: ws
+  port: 443
+  server: 172.67.198.187
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 071
+  network: ws
+  port: 80
+  server: 104.22.58.63
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8f3e7a5c-9795-40b7-bb59-49892bde5d9c
+  ws-opts:
+    headers:
+      Host: 73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
+    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 066
+  network: ws
+  port: 2082
+  server: 162.159.140.89
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 059
+  network: ws
+  port: 443
+  server: 104.21.18.227
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|荷兰 004
+  network: ws
+  port: 443
+  server: 188.114.99.205
+  servername: linde06.indiavideo.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 062
+  network: ws
+  port: 2095
+  server: 172.64.166.33
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 229
+  network: ws
+  port: 2082
+  server: 104.19.45.50
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 220
+  network: ws
+  port: 2095
+  server: 104.26.5.66
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
     path: /
 - alterId: 1
   cipher: auto
@@ -130,326 +3238,19 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 1,8|_US__12
+  name: 1,3,8,22|_US__9
   network: ws
   port: 2086
-  server: 104.19.51.232
-  sni: ''
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-- alterId: 0
-  cipher: auto
-  name: 13|美国 124
-  network: ws
-  port: 2095
-  server: 172.64.167.15
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|美国 084
-  network: ws
-  port: 443
-  server: b.tampay.info
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: b.tampay.info
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|美国 153
-  network: ws
-  port: 2095
-  server: 172.64.166.12
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 007
-  network: ws
-  port: 2095
-  server: 104.26.5.67
-  servername: ip2.8084726.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
-  ws-opts:
-    headers:
-      Host: ip2.8084726.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 132
-  network: ws
-  port: 2095
-  server: 104.26.5.123
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 060
-  network: ws
-  port: 2095
-  server: 104.19.21.71
-  servername: ip15.6016725.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip15.6016725.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 015
-  network: ws
-  port: 443
-  server: 172.67.183.220
-  servername: jahfkjha.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__15
-  network: ws
-  port: 2086
-  server: 104.19.46.27
-  sni: ip14.freegradely.xyz
+  server: 104.18.57.111
+  sni: ip11.freegradely.xyz
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
 - alterId: 0
   cipher: auto
-  name: '3,22|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  name: 13|加拿大 252
   network: ws
   port: 2082
-  server: 172.67.130.140
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '2|🇷🇺_RU_俄罗斯联邦 #1'
-  network: ws
-  port: 12910
-  server: 45.136.245.240
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US_->_CN__1
-  network: ws
-  port: 2052
-  server: 104.19.21.240
-  sni: cdn2.freegradely.xyz
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__8
-  network: ws
-  port: 2086
-  server: 104.19.21.230
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 028
-  network: ws
-  port: 443
-  server: 172.67.161.77
-  servername: linde06.indiavideo.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 004
-  network: ws
-  port: 8080
-  server: 104.16.68.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: square-snowflake-486a.beshir-beisel.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 035
-  network: ws
-  port: 443
-  server: 188.114.97.210
-  servername: linde06.indiavideo.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 054
-  network: ws
-  port: 2095
-  server: 104.21.238.101
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip3.6016725.xyz
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.142.50.59
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 073
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  tls: false
-  type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: telegram----cassiusvpn----2.ranob36907.workers.dev
-    path: /az05.beyondy.cfd:443/link
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 19|🇹🇼 台湾2|@ripaojiedian
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 7c0ad96494.microsoft.com
-    mode: http
-  port: 1171
-  server: 163.177.58.179
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '12,14|美国 CloudFlare节点 #11'
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 12|美国 加利福尼亚州圣何塞PEG TECH
-  network: ws
-  port: 38007
-  server: 142.4.108.131
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/283126261303
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 194
-  network: ws
-  port: 8080
-  server: 104.16.61.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: 6c47-butterfly-6c47.yexoji3749.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  delay: 2404
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 13|意大利 001
-  network: http
-  port: 2098
-  server: 147.45.51.16
-  skip-cert-verify: true
-  type: vmess
-  uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-- alterId: 0
-  cipher: auto
-  name: '12,13|美国 CloudFlare节点 #19'
-  network: ws
-  port: 2082
-  server: 104.19.45.47
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|美国 221
-  network: ws
-  port: 2082
-  server: 172.64.166.12
+  server: 23.227.38.3
   servername: ip18.6929198.xyz
   skip-cert-verify: false
   tls: false
@@ -458,50 +3259,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip18.6929198.xyz
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|美国 067
-  network: ws
-  port: 443
-  server: b.besar.homes
-  servername: b.besar.homes
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: b.besar.homes
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 076
-  network: ws
-  port: 2052
-  server: 104.16.60.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: late-wave-1d0a.lesijo3430.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 011
-  network: ws
-  port: 443
-  server: 172.67.198.187
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-  ws-opts:
-    headers:
-      Host: xmivideo.cfd
     path: /
 - alterId: 0
   cipher: auto
@@ -520,556 +3277,34 @@ proxies:
     path: /xyz
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 033
+  name: 13|加拿大 032
   network: ws
   port: 443
-  server: 104.21.46.121
+  server: 172.67.220.83
+  servername: linja05.hwcar.sbs
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
   ws-opts:
     headers:
-      Host: ivideos.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1577
-  name: 13|美国 246
-  network: ws
-  port: 2095
-  server: 172.64.167.10
-  servername: ip14.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip14.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 112
-  network: ws
-  port: 2082
-  server: 104.19.45.90
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|塞浦路斯 004
-  network: ws
-  port: 80
-  server: go.alipay.ovh
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a94171be-b387-4f02-a5ef-a1b4b7a26c04
-  ws-opts:
-    headers:
-      Host: open.alipay.ovh
-    path: /aries?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|美国 061
-  network: ws
-  port: 2082
-  server: 172.64.166.8
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,22|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 2086
-  server: 172.64.175.213
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  delay: 1853
-  name: 13|加拿大 198
-  network: ws
-  port: 2095
-  server: 104.26.0.56
-  servername: ip10.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip10.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|美国 191
-  network: ws
-  port: 8080
-  server: m001.mmzhk.website
-  servername: m001.mmzhk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b54e6bc4-5e3f-45a3-94bf-0920d45781c5
-  ws-opts:
-    headers:
-      Host: daohang.mmzhk.website
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 13|瑞士 001
-  network: ws
-  port: 8080
-  server: xr005.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6e1ea1c1-c140-4f15-b98e-457390972704
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 017
-  network: ws
-  port: 2052
-  server: 104.18.25.92
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 045
-  network: ws
-  port: 2095
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|美国 173
-  network: ws
-  port: 443
-  server: 104.21.94.168
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-  ws-opts:
-    headers:
-      Host: hms19.best-tizi.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 14|github.com/freefq - 美国Fastly全球...
-  network: ws
-  port: 443
-  server: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 068
-  network: ws
-  port: 2082
-  server: 104.19.45.31
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 113
-  network: ws
-  port: 2082
-  server: 104.19.42.49
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 085
-  network: ws
-  port: 8880
-  server: 104.16.67.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: worker-divine-hat-02d6.savofir317.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 218
-  network: ws
-  port: 2082
-  server: 172.64.167.10
-  servername: ip18.6929198.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 055
-  network: ws
-  port: 443
-  server: 188.114.96.1
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: afrhms16v.bestxray.buzz
+      Host: linja05.hwcar.sbs
     path: /
 - alterId: 1
   cipher: auto
-  delay: 2185
-  name: 13|加拿大 062
+  name: 13|美国 136
   network: ws
   port: 443
-  server: serkat.org
-  servername: serkat.org
-  skip-cert-verify: true
+  server: an.anaviriti.info
+  servername: an.anaviriti.info
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: serkat.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|英国 010
-  network: ws
-  port: 30000
-  server: xr004.louwangzhiyu.xyz
-  servername: xr001.louwangzhiyu.xyz
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 57a44676-af22-42ca-988b-22fc21153a27
-  ws-opts:
-    headers:
-      Host: www.louwangzhiyu.xyz
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  delay: 1338
-  name: 13|加拿大 272
-  network: ws
-  port: 2082
-  server: 104.19.38.12
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 2|🇷🇺_RU_俄罗斯联邦
-  network: tcp
-  port: 35972
-  server: 45.147.200.170
-  tls: false
-  type: vmess
-  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 039
-  network: ws
-  port: 2095
-  server: 104.19.45.50
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
+      Host: an.anaviriti.info
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 181
-  network: ws
-  port: 2082
-  server: 104.19.45.35
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 19,20|🇯🇵 日本|@ripaojiedian
-  port: 25004
-  server: d.baodesign.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
-- alterId: 0
-  cipher: auto
-  name: 3,22|🇺🇸_US_美国->🇨🇳_CN_中国
-  network: ws
-  port: 8080
-  server: 104.19.47.16
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 14|github.com/freefq - 广东省移动 7
-  network: ws
-  port: '20401'
-  server: data-us-v1.shwjfkw.cn
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
-- alterId: 0
-  cipher: auto
-  delay: 1125
-  name: 13|美国 243
-  network: ws
-  port: 2082
-  server: 172.64.166.20
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- client-fingerprint: chrome
-  name: 19|🇸🇬 新加坡2|@ripaojiedian
-  password: 5b4becce-5739-483f-97ec-68b81a855d68
-  port: 13030
-  server: naiu-sg.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- delay: 1939
-  name: 13|德国 004
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.153.249.160
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇯🇵 日本3|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.215.69
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 097
-  network: ws
-  port: 2095
-  server: 162.159.140.45
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 012
-  network: ws
-  port: 2082
-  server: 104.16.61.8
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: ury-unit-c030ehei8.poget71138.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12,14|美国 CloudFlare节点 #13'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 072
-  network: ws
-  port: 2082
-  server: 104.19.45.19
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 148
-  network: ws
-  port: 2082
-  server: 104.26.7.132
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1617
-  name: 13|加拿大 275
-  network: ws
-  port: 2095
-  server: 104.19.45.90
-  servername: ip14.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip14.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 023
-  network: ws
-  port: 8880
-  server: 104.16.60.8
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: square-snowflake-486a.beshir-beisel.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|美国 223
-  network: ws
-  port: 80
-  server: 151.101.2.133
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: '3,22|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
-  network: ws
-  port: 16928
-  server: 120.232.240.56
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 12|湖南省长沙市 移动
-  network: tcp
-  port: '25007'
-  server: c.baodesign.top
-  tls: false
-  type: vmess
-  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
 - alterId: 0
   cipher: auto
   name: 13|加拿大 143
@@ -1086,261 +3321,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,8|_US__10
-  network: ws
-  port: 2052
-  server: 104.19.46.123
-  sni: cdn2.freegradely.xyz
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-- alterId: 0
-  cipher: auto
-  name: '12,13|美国 CloudFlare节点 #10'
-  network: ws
-  port: 2095
-  server: 172.64.166.28
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US_->_CA__1
-  network: ws
-  port: 2086
-  server: 104.19.47.79
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 147
-  network: ws
-  port: 2082
-  server: 104.19.55.49
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13,19,20|香港 006
-  network: tcp
-  port: 2902
-  server: 143.92.42.65
-  tls: false
-  type: vmess
-  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 092
-  network: ws
-  port: 8880
-  server: 104.16.68.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: subhk.osafari599.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12|美国 CloudFlare节点 #16'
-  network: ws
-  port: 2082
-  server: malaysia.com
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  delay: 2163
-  name: 13|美国 226
+  name: 13|加拿大 015
   network: ws
   port: 443
-  server: 151.101.194.133
-  servername: gerMAnyISvP.iR
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 074
-  network: ws
-  port: 80
-  server: 104.16.60.8
-  tls: false
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: range-shape-b3fuegu.bananok182.workers.dev
-    path: /hms02.fxiaomi.sbs/link
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 103
-  network: ws
-  port: 8080
-  server: 104.16.67.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: square-snowflake-486a.beshir-beisel.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US_->_CA__2
-  network: ws
-  port: 2086
-  server: 104.19.46.39
-  sni: ''
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US_->_CA__4
-  network: ws
-  port: 2086
-  server: 104.19.45.47
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 034
-  network: ws
-  port: 443
-  server: gt021.bestforxray.buzz
-  servername: ausgt02.bestforxray.buzz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
-  ws-opts:
-    headers:
-      Host: ausgt02.bestforxray.buzz
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 2115
-  name: 13|加拿大 270
-  network: ws
-  port: 2082
-  server: 104.26.5.113
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 1
-  cipher: auto
-  name: 13|法国 006
-  network: ws
-  port: 443
-  server: 23.162.152.177
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 23.162.152.177
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 099
-  network: ws
-  port: 2086
-  server: 172.67.165.53
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-  ws-opts:
-    headers:
-      Host: shs.xiaoqi666.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 217
-  network: ws
-  port: 2095
-  server: 104.19.45.15
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.169.135.226
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12,13|美国 CloudFlare公司CDN节点(shopify)
-  network: ws
-  port: 2095
-  server: 23.227.38.3
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 093
-  network: ws
-  port: 443
-  server: 172.67.174.42
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 059
-  network: ws
-  port: 443
-  server: 104.21.18.227
+  server: 172.67.183.220
+  servername: jahfkjha.cfd
   skip-cert-verify: false
   tls: true
   type: vmess
@@ -1351,464 +3336,56 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|美国 086
-  network: ws
-  port: 443
-  server: 104.21.82.17
-  servername: gwdef.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|美国 077
-  network: ws
-  port: 443
-  server: e.ritchier.info
-  servername: e.ritchier.info
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: e.ritchier.info
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 006
-  network: ws
-  port: 443
-  server: 173.245.59.8
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: 77h2quiet-dream-5c34.foratay741.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12|美国 CloudFlare节点 #1'
+  name: 13|加拿大 148
   network: ws
   port: 2082
-  server: 104.19.38.9
+  server: 104.26.7.132
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
       Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
+    path: /
 - alterId: 0
   cipher: auto
-  delay: 804
-  name: 13|美国 198
+  name: 13|美国 123
   network: ws
   port: 2095
-  server: 104.19.45.13
+  server: 172.64.166.16
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
+      Host: ip11.6016725.xyz
+    path: /
+- alterId: 1
   cipher: auto
-  name: '12,13|美国 CloudFlare节点 #6'
+  name: 13|加拿大 036
   network: ws
-  port: 2095
-  server: 172.64.166.33
-  tls: false
+  port: 443
+  server: d.seribus.org
+  servername: d.seribus.org
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- delay: 1795
-  name: 13|印度 001
+      Host: d.seribus.org
+    path: /
+- delay: 1939
+  name: 13|德国 004
   network: tcp
-  password: '!!str 3690911436885991424'
-  port: 443
-  server: 5.8.35.45
-  sni: careful-platypus.opossum872.cfd
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.153.249.160
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 14|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 8880
-  server: server32.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  ws-opts:
-    headers:
-      Host: server32.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,3,8,22|_US__9
-  network: ws
-  port: 2086
-  server: 104.18.57.111
-  sni: ip11.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 133
-  network: ws
-  port: 2082
-  server: 104.26.5.103
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 260
-  network: ws
-  port: 2082
-  server: 104.19.21.71
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 231
-  network: ws
-  port: 2082
-  server: 104.26.5.67
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__16
-  network: ws
-  port: 2086
-  server: 104.19.45.15
-  sni: ''
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 1
-  cipher: auto
-  delay: 1674
-  name: 13|美国 159
-  network: ws
-  port: 443
-  server: c.serkat.org
-  servername: c.serkat.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: c.serkat.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 001
-  network: ws
-  port: 2095
-  server: 162.159.140.33
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 022
-  network: ws
-  port: 443
-  server: 104.21.74.239
-  servername: afrhms07.xfixedfloat.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-  ws-opts:
-    headers:
-      Host: afrhms07.xfixedfloat.cfd
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|美国 172
-  network: ws
-  port: 443
-  server: c.tampay.info
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: c.tampay.info
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 252
-  network: ws
-  port: 2082
-  server: 23.227.38.3
-  servername: ip18.6929198.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /
-- alterId: 1
-  cipher: auto
-  delay: 1262
-  name: 13|加拿大 064
-  network: ws
-  port: 443
-  server: e.masjide.org
-  servername: e.masjide.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: e.masjide.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  delay: 2431
-  name: 13|加拿大 101
-  network: ws
-  port: 2082
-  server: 162.159.140.33
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__13
-  network: ws
-  port: 2086
-  server: 104.19.46.233
-  sni: ''
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-- alterId: 0
-  cipher: auto
-  name: 12|美国 华盛顿Cogent通信公司
-  network: ws
-  port: 443
-  server: 38.91.100.228
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 12|香港 Leaseweb数据中心
-  network: tcp
-  port: 14247
-  server: 103.75.117.78
-  tls: false
-  type: vmess
-  uuid: 56d6f1a9-b26a-4f9b-a95a-ff59de60ee51
-- alterId: 0
-  cipher: auto
-  name: 13|韩国 001
-  network: tcp
-  port: 20937
-  server: 45.94.68.200
-  tls: false
-  type: vmess
-  uuid: c0e6d2ab-9fc2-4a0f-8011-844e5b45ec0c
-- alterId: 0
-  cipher: auto
-  name: 13|保加利亚 003
-  network: ws
-  port: 443
-  server: 147.78.140.231
-  servername: llow-disk-4b7b.bigapax481.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: llow-disk-4b7b.bigapax481.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|美国 161
-  network: ws
-  port: 443
-  server: b.serkat.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: b.serkat.org
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 19|🇰🇷 韩国3|@ripaojiedian
-  password: f2a7baac-c6d4-4d29-aab2-02426814f0ce
-  port: 39202
-  server: hzhz1.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 075
-  network: ws
-  port: 2082
-  server: 104.26.5.56
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 1
-  cipher: auto
-  name: 13|加拿大 040
-  network: ws
-  port: 443
-  server: bukitk.homes
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: bukitk.homes
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12|美国 CloudFlare节点 #5'
-  network: ws
-  port: 2082
-  server: 104.26.5.88
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|美国 066
-  network: ws
-  port: 2082
-  server: 104.26.4.60
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '12,13|美国 CloudFlare节点 #14'
-  network: ws
-  port: 2082
-  server: 104.26.0.56
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|美国 055
-  network: ws
-  port: 443
-  server: 104.19.32.0
-  servername: xmivideo.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-  ws-opts:
-    headers:
-      Host: xmivideo.cfd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 069
-  network: ws
-  port: 2082
-  server: 104.19.32.216
-  servername: ip18.6929198.xyz
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /
 - alterId: 0
   cipher: auto
   name: 13|美国 082
@@ -1822,143 +3399,40 @@ proxies:
     headers:
       Host: nsusa.v2ray.com.br
     path: /v2raybrasil.com
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 032
-  network: ws
-  port: 443
-  server: 172.67.220.83
-  servername: linja05.hwcar.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: linja05.hwcar.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|瑞典 001
-  network: ws
-  port: 443
-  server: 185.146.173.158
-  servername: jahfkjha.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,22|🇺🇸_US_美国 #5'
-  network: ws
-  port: 2086
-  server: 104.19.32.46
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 13|荷兰 004
-  network: ws
-  port: 443
-  server: 188.114.99.205
-  servername: linde06.indiavideo.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /
 - alterId: 1
   cipher: auto
-  name: 13|加拿大 042
+  name: 13|美国 194
   network: ws
   port: 443
-  server: be.kalavryta.org
-  servername: be.kalavryta.org
-  skip-cert-verify: false
+  server: d.masjide.org
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: be.kalavryta.org
-    path: /
-- alterId: 1
-  cipher: auto
-  delay: 1697
-  name: 13|美国 193
-  network: ws
-  port: 443
-  server: d.kampong.org
-  servername: d.kampong.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: d.kampong.org
+      Host: d.masjide.org
     path: linkvws
-- delay: 1357
-  name: 13|美国 166
-  network: ws
-  password: auto
-  port: 443
-  server: 159.246.55.132
-  skip-cert-verify: true
-  sni: vip.123789.pp.ua
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: vip.123789.pp.ua
-    path: /
 - alterId: 0
   cipher: auto
-  delay: 2644
-  name: 13|加拿大 274
+  name: 13|加拿大 203
   network: ws
   port: 2082
-  server: fbi.gov
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 135
-  network: ws
-  port: 2082
-  server: 104.20.17.186
+  server: 104.16.68.38
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
   ws-opts:
     headers:
-      Host: ip6.6929198.xyz
+      Host: late-wave-1d0a.lesijo3430.workers.dev
     path: /
 - alterId: 0
   cipher: auto
-  delay: 1339
-  name: 13|加拿大 102
+  delay: 802
+  name: 13|美国 152
   network: ws
   port: 2095
-  server: 104.26.5.90
+  server: 172.64.175.213
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1983,25 +3457,190 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 255
+  name: 3,22|🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
-  port: 2095
-  server: 104.18.57.111
+  port: 2086
+  server: 104.19.47.65
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 13|英国 010
+  network: ws
+  port: 30000
+  server: xr004.louwangzhiyu.xyz
+  servername: xr001.louwangzhiyu.xyz
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 57a44676-af22-42ca-988b-22fc21153a27
+  ws-opts:
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
+- alterId: 1
+  cipher: auto
+  name: 13|加拿大 042
+  network: ws
+  port: 443
+  server: be.kalavryta.org
+  servername: be.kalavryta.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: be.kalavryta.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 133
+  network: ws
+  port: 2082
+  server: 104.26.5.103
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 033
+  network: ws
+  port: 443
+  server: 104.21.46.121
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ivideos.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19,20|🇯🇵 日本|@ripaojiedian
+  port: 25004
+  server: d.baodesign.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ba2e86ee-65fc-4b4e-97c7-165b5b64023b
+- alterId: 0
+  cipher: auto
+  delay: 1823
+  name: 13|加拿大 005
+  network: ws
+  port: 2082
+  server: www.visa.com
+  servername: ip18.6929198.xyz
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  name: 13|加拿大 031
+  network: ws
+  port: 443
+  server: valkinin.org
+  servername: valkinin.org
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: valkinin.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 024
+  network: ws
+  port: 2082
+  server: japan.com
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US_->_CA__2
+  network: ws
+  port: 2086
+  server: 104.19.46.39
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__8
+  network: ws
+  port: 2086
+  server: 104.19.21.230
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 047
+  network: ws
+  port: 2095
+  server: 104.19.57.4
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
       Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
+    path: /
 - alterId: 1
   cipher: auto
-  name: 13|美国 087
+  name: 13|加拿大 090
   network: ws
   port: 443
-  server: e.bukitk.homes
+  server: b.kandap.homes
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: b.kandap.homes
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,2,8|_US_->_SG_
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  sni: ''
+  type: vmess
+  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+- alterId: 1
+  cipher: auto
+  name: 13|法国 006
+  network: ws
+  port: 443
+  server: 23.162.152.177
   skip-cert-verify: true
   tls: true
   type: vmess
@@ -2009,107 +3648,148 @@ proxies:
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: e.bukitk.homes
+      Host: 23.162.152.177
     path: linkvws
 - alterId: 0
   cipher: auto
-  delay: 1709
-  name: 13|加拿大 273
+  name: 13|加拿大 174
   network: ws
   port: 2095
-  server: 104.19.58.175
-  servername: ip14.6016725.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip14.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  delay: 2559
-  name: 13|美国 228
-  network: ws
-  port: 443
-  server: 104.21.29.88
-  servername: 1e9e9.olielielie.store
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: bfb2c6c5-1b3e-4b2a-b971-9db091735363
-  ws-opts:
-    headers:
-      Host: 1e9e9.olielielie.store
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|美国 174
-  network: ws
-  port: 443
-  server: 104.21.44.106
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-  ws-opts:
-    headers:
-      Host: xmivideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 151
-  network: ws
-  port: 2095
-  server: 104.26.5.145
-  skip-cert-verify: false
+  server: 104.19.32.216
   tls: false
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
       Host: ip2.6016725.xyz
-    path: /
-- name: 13|加拿大 046
-  network: ws
-  password: auto
-  port: 443
-  server: 162.159.153.132
-  sni: tg.cmliussss.us.kg
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tg.cmliussss.us.kg
-    path: /
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 049
+  name: 13|加拿大 016
   network: ws
-  port: 443
-  server: ParsVds.ir
-  skip-cert-verify: false
-  tls: true
+  port: 2052
+  server: cf.hy2.one
+  tls: false
   type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  udp: true
+  uuid: 5593317a-b77d-45d0-b1a0-51e657a0e7ef
   ws-opts:
     headers:
-      Host: hms19.best-tizi.top
-    path: /
+      Host: sg0002.hy-2.top
+    path: /0
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 048
+  name: 13|加拿大 076
+  network: ws
+  port: 2052
+  server: 104.16.60.8
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: late-wave-1d0a.lesijo3430.workers.dev
+    path: /ivideos.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 061
   network: ws
   port: 2082
-  server: 104.26.5.90
+  server: malaysia.com
+  skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
       Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 074
+  network: ws
+  port: 80
+  server: 104.16.60.8
+  tls: false
+  type: vmess
+  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
+  ws-opts:
+    headers:
+      Host: range-shape-b3fuegu.bananok182.workers.dev
+    path: /hms02.fxiaomi.sbs/link
+- alterId: 1
+  cipher: auto
+  name: 13|加拿大 027
+  network: ws
+  port: 443
+  server: anaviriti.info
+  servername: anaviriti.info
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: anaviriti.info
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 223
+  network: ws
+  port: 80
+  server: 151.101.2.133
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
+  ws-opts:
+    headers:
+      Host: gerMAnyISvP.iR
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 034
+  network: ws
+  port: 443
+  server: gt021.bestforxray.buzz
+  servername: ausgt02.bestforxray.buzz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
+  ws-opts:
+    headers:
+      Host: ausgt02.bestforxray.buzz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 13|美国 172
+  network: ws
+  port: 443
+  server: c.tampay.info
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: c.tampay.info
+    path: linkvws
 - alterId: 0
   cipher: auto
   name: 13|加拿大 057
@@ -2127,160 +3807,45 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|日本 008
-  network: tcp
-  port: 14072
-  server: 45.159.50.65
-  tls: false
-  type: vmess
-  uuid: 1a72c7ca-ff6c-4dd8-8efe-388d2bfdf92f
-- alterId: 1
-  cipher: auto
-  name: 13|加拿大 096
+  name: 13|美国 055
   network: ws
   port: 443
-  server: b.hungshing.org
-  servername: b.hungshing.org
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: b.hungshing.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|美国 035
-  network: ws
-  port: 2082
-  server: 172.64.198.249
-  servername: ip18.6929198.xyz
+  server: 104.19.32.0
+  servername: xmivideo.cfd
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 3,22|🇨🇳_CN_中国
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 168
-  network: ws
-  port: 2082
-  server: 104.26.5.123
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /@HosseinStore_Za/@NEKO_Za
-  name: 13|德国 008
-  network: http
-  port: 34497
-  server: 195.254.165.63
-  servername: ttl.unique69.com
-  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
-  uuid: 860a1295-0d81-403c-a179-97f396437809
-- alterId: 1
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /
+- alterId: 0
   cipher: auto
-  name: 13|加拿大 090
+  name: 13|加拿大 093
   network: ws
   port: 443
-  server: b.kandap.homes
+  server: 172.67.174.42
   skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
   ws-opts:
     headers:
-      Host: b.kandap.homes
+      Host: gwdef.sbs
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1|_US_->_ES_
+  password: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  port: 59019
+  server: fuck5.mmmmmmmmmm.cfd
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 1,8|_US__1
-  network: ws
-  port: 2086
-  server: 104.19.38.62
-  sni: ip004.dtku47.xyz
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 021
-  network: ws
-  port: 80
-  server: cf.hy2.one
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5593317a-b77d-45d0-b1a0-51e657a0e7ef
-  ws-opts:
-    headers:
-      Host: tw02.hy2.one
-    path: /af323d
-- alterId: 0
-  cipher: auto
-  name: '12|美国 CloudFlare节点 #18'
+  name: 13|加拿大 068
   network: ws
   port: 2082
-  server: 172.64.167.44
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 114
-  network: ws
-  port: 2082
-  server: 172.67.75.172
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__6
-  network: ws
-  port: 2086
-  server: 104.20.25.146
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 041
-  network: ws
-  port: 2082
-  server: 104.17.106.151
+  server: 104.19.45.31
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -2291,10 +3856,139 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '12,13|美国 CloudFlare节点 #4'
+  name: 1,8|_US_->_CN__2
+  network: ws
+  port: 8080
+  server: 104.19.47.126
+  sni: ''
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+- alterId: 0
+  cipher: auto
+  name: '2|🇺🇸_US_美国 #3'
+  network: ws
+  port: 8080
+  server: 148.135.40.190
+  tls: false
+  type: vmess
+  uuid: f6c4905b-0308-4164-b1ad-4157531a8378
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 018
+  network: ws
+  port: 2082
+  server: 104.16.67.38
+  servername: worker-mute-bar-1719.nifotok993.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: worker-mute-bar-1719.nifotok993.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US_->_CN__1
+  network: ws
+  port: 2052
+  server: 104.19.21.240
+  sni: cdn2.freegradely.xyz
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 056
   network: ws
   port: 2095
-  server: 172.64.167.5
+  server: 104.19.45.31
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  name: 13|美国 044
+  network: ws
+  port: 443
+  server: ritchier.info
+  servername: ritchier.info
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ritchier.info
+    path: /
+- alterId: 1
+  cipher: auto
+  name: 13|加拿大 094
+  network: ws
+  port: 443
+  server: 23.162.200.141
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.162.200.141
+    path: linkvws
+- name: 13|香港 003
+  network: ws
+  password: a3ca0380-8a17-403a-a5b3-a9f6e59be193
+  port: 443
+  server: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
+  skip-cert-verify: true
+  sni: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
+    path: /a3ca0380-8a17-403a-a5b3-a9f6e59be193
+- alterId: 0
+  cipher: auto
+  name: 13|塞浦路斯 001
+  network: ws
+  port: 443
+  server: 195.85.59.22
+  servername: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 163
+  network: ws
+  port: 443
+  server: 104.21.94.64
+  servername: linja05.hwcar.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+  ws-opts:
+    headers:
+      Host: linja05.hwcar.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 125
+  network: ws
+  port: 2095
+  server: 172.64.99.22
   tls: false
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
@@ -2304,50 +3998,25 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 188
-  network: ws
-  port: 2082
-  server: 104.19.45.15
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  delay: 1717
-  name: 13|加拿大 105
+  name: 13|保加利亚 003
   network: ws
   port: 443
-  server: e.kampong.org
-  skip-cert-verify: true
+  server: 147.78.140.231
+  servername: llow-disk-4b7b.bigapax481.workers.dev
+  skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
   ws-opts:
     headers:
-      Host: e.kampong.org
-    path: linkvws
+      Host: llow-disk-4b7b.bigapax481.workers.dev
+    path: /
 - alterId: 0
   cipher: auto
-  name: '3,22|🇺🇸_US_美国 #6'
-  network: ws
-  port: 8080
-  server: russia.com
-  tls: false
-  type: vmess
-  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 178
+  name: 13|加拿大 142
   network: ws
   port: 2082
-  server: 104.19.21.63
+  server: 104.26.0.56
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -2355,6 +4024,33 @@ proxies:
   ws-opts:
     headers:
       Host: ip3.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 097
+  network: ws
+  port: 2095
+  server: 162.159.140.45
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 091
+  network: ws
+  port: 2052
+  server: jx.jixingnetwork.sbs
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5a0c2058-a1dd-4043-93c2-02465ae3cfd0
+  ws-opts:
+    headers:
+      Host: rb03.jixingnetwork.sbs
     path: /
 - alterId: 0
   cipher: auto
@@ -2373,191 +4069,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 130
-  network: ws
-  port: 2095
-  server: 104.19.47.65
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|瑞典 002
-  network: ws
-  port: 443
-  server: 185.146.173.129
-  servername: nt-haze-7dad.rogap16875.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: nt-haze-7dad.rogap16875.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 056
-  network: ws
-  port: 2095
-  server: 104.19.45.31
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 245
-  network: ws
-  port: 2095
-  server: malaysia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|美国 023
-  network: ws
-  port: 443
-  server: 104.20.39.186
-  servername: vmess.taxar71054.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: vmess.taxar71054.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 057
-  network: ws
-  port: 443
-  server: 173.245.58.37
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: 7wih-darkness-f0af.jivegoh116.workers.dev
-    path: /
-- name: 13|美国 081
-  network: ws
-  password: bpb-trojan
-  port: 2053
-  server: 188.114.99.208
-  skip-cert-verify: true
-  sni: BPB-worKEr-pANel1-E4p.PAgES.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: BPB-worKEr-pANel1-E4p.PAgES.Dev
-    path: /tr9pU4LSFNK5k8URSo/ZGUucmFkaWNhbGx5LnBybw==
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 051
-  network: ws
-  port: 443
-  server: 104.17.197.31
-  servername: quiet-moon-132a.xetag42714.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: quiet-moon-132a.xetag42714.workers.dev
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|美国 136
-  network: ws
-  port: 443
-  server: an.anaviriti.info
-  servername: an.anaviriti.info
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: an.anaviriti.info
-    path: /
-- alterId: 1
-  cipher: auto
-  delay: 2630
-  name: 13|英国 017
-  network: ws
-  port: 443
-  server: 68.168.31.244
-  servername: 68.168.31.244
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 68.168.31.244
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 214
+  name: 13|美国 221
   network: ws
   port: 2082
-  server: 162.159.140.77
+  server: 172.64.166.12
+  servername: ip18.6929198.xyz
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip3.6929198.xyz
+      Host: ip18.6929198.xyz
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 19,20|🇺🇸 美国3|@ripaojiedian
-  port: 39041
-  server: 183.238.202.173
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 059
-  network: ws
-  port: 2095
-  server: 104.19.45.47
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -2571,10 +4095,83 @@ proxies:
   uuid: 287dca94-9652-47c1-88e2-92b455b49591
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 141
+  name: 13|加拿大 028
+  network: ws
+  port: 443
+  server: 172.67.161.77
+  servername: linde06.indiavideo.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 255
+  network: ws
+  port: 2095
+  server: 104.18.57.111
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip2.6016725.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  delay: 1688
+  name: 13|美国 227
+  network: ws
+  port: 80
+  server: 151.101.130.133
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
+  ws-opts:
+    headers:
+      Host: gerMAnyISvP.iR
+    path: /racevpn
+- alterId: 0
+  cipher: auto
+  name: 13|美国 035
   network: ws
   port: 2082
-  server: 162.159.140.45
+  server: 172.64.198.249
+  servername: ip18.6929198.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '12,14|美国 CloudFlare节点 #1'
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 147
+  network: ws
+  port: 2082
+  server: 104.19.55.49
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -2585,19 +4182,71 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|美国 063
+  delay: 1709
+  name: 13|加拿大 273
   network: ws
-  port: 8080
-  server: n009.kovmk.website
-  servername: n009.kovmk.website
-  tls: true
+  port: 2095
+  server: 104.19.58.175
+  servername: ip14.6016725.xyz
+  tls: false
   type: vmess
   udp: true
-  uuid: 83b2d0b9-d327-476d-ac3f-d5794505db15
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: daohang.kovmk.website
-    path: /xyz
+      Host: ip14.6016725.xyz
+    path: /github.com/Alvin9999
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 19,20|🇭🇰 香港3|@ripaojiedian
+  port: 45219
+  server: 103.224.80.27
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ac134134-87e5-42b5-8805-565395a30acc
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 231
+  network: ws
+  port: 2082
+  server: 104.26.5.67
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip3.6929198.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|美国 196
+  network: ws
+  port: 2082
+  server: 104.19.38.11
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip6.6929198.xyz
+    path: github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 19|🇰🇷 韩国3|@ripaojiedian
+  password: f2a7baac-c6d4-4d29-aab2-02426814f0ce
+  port: 39202
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   delay: 2108
@@ -2616,148 +4265,10 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 232
+  name: 13|加拿大 116
   network: ws
   port: 2082
-  server: 104.19.21.230
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__2
-  network: ws
-  port: 2086
-  server: 104.19.47.122
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US_->_CN__2
-  network: ws
-  port: 8080
-  server: 104.19.47.126
-  sni: ''
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 19|🇹🇼 台湾|@ripaojiedian
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 7c0ad96494.microsoft.com
-    mode: http
-  port: 1170
-  server: 163.177.58.179
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  name: '3,22|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
-  network: tcp
-  port: 54002
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 235
-  network: ws
-  port: 2095
-  server: 104.19.38.12
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 140
-  network: ws
-  port: 2052
-  server: 104.20.17.186
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn1.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 233
-  network: ws
-  port: 2082
-  server: 104.19.45.42
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 44.244.21.125
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US_->_NL_
-  network: ws
-  port: 2086
-  server: 172.64.198.249
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 1
-  cipher: auto
-  delay: 1699
-  name: 13|美国 115
-  network: ws
-  port: 443
-  server: jamekk.org
-  servername: jamekk.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: jamekk.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 149
-  network: ws
-  port: 2086
-  server: 104.16.68.38
-  tls: false
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: rough-wildflower-0b5e.zemel-yesenia1720.workers.dev
-    path: /glweidf.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 128
-  network: ws
-  port: 2082
-  server: 104.26.5.145
+  server: 104.26.5.88
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -2765,32 +4276,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip3.6929198.xyz
-    path: /
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 19,20|🇭🇰 香港R|@ripaojiedian
-  obfs: plain
-  obfs-param: 8195986416.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40206
-  protocol: auth_aes128_md5
-  protocol-param: 86416:SlZFuy
-  server: 7438974b54cf5c57.cdn.jiashule.com
-  type: ssr
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 053
-  network: ws
-  port: 443
-  server: 104.21.55.234
-  servername: gwdef.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
-  ws-opts:
-    headers:
-      Host: gwdef.sbs
     path: /
 - alterId: 0
   cipher: auto
@@ -2809,1059 +4294,14 @@ proxies:
     headers:
       Host: z3.fragranceninja.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 056
-  network: ws
-  port: 443
-  server: 104.21.83.108
-  servername: hms02.fxiaomi.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: hms02.fxiaomi.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 033
-  network: ws
-  port: 8080
-  server: n010.kovmk.website
-  servername: n010.kovmk.website
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2a512ec5-60f4-472b-9e67-6fa86aed6499
-  ws-opts:
-    headers:
-      Host: daohang.kovmk.website
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 095
-  network: ws
-  port: 2086
-  server: shs.xiaoqi666.xyz
-  tls: false
-  type: vmess
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-  ws-opts:
-    headers:
-      Host: shs.xiaoqi666.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 241
-  network: ws
-  port: 2095
-  server: 104.19.46.103
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 066
-  network: ws
-  port: 2082
-  server: 162.159.140.89
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 115
-  network: ws
-  port: 2095
-  server: singapore.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|美国 119
-  network: ws
-  port: 2086
-  server: 104.21.89.219
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-  ws-opts:
-    headers:
-      Host: shs.xiaoqi666.xyz
-    path: /
-- delay: 1742
-  name: 13|瑞典 003
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 51.20.28.151
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 070
-  network: ws
-  port: 443
-  server: 172.67.179.199
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 12,13|美国 CloudFlare节点
-  network: ws
-  port: 2082
-  server: 104.19.38.11
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip6.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|美国 085
-  network: ws
-  port: 443
-  server: plex.com
-  tls: true
-  type: vmess
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 222
-  network: ws
-  port: 2095
-  server: 104.26.5.113
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|美国 133
-  network: ws
-  port: 443
-  server: ds.nurul.homes
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ds.nurul.homes
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 21|SCP2
-  network: ws
-  port: '443'
-  server: www.smcacre.gov
-  servername: www.smcacre.gov
-  tls: true
-  type: vmess
-  uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b
-  ws-opts:
-    headers:
-      Host: lajihuawei.com
-    path: /3cc8e2d2
-- alterId: 0
-  cipher: auto
-  name: 14,14,14|github.com/freefq - 印度  2
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 203
-  network: ws
-  port: 2082
-  server: 104.16.68.38
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: late-wave-1d0a.lesijo3430.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 025
-  network: ws
-  port: 443
-  server: 104.21.9.236
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
-  ws-opts:
-    headers:
-      Host: hms19.best-tizi.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 174
-  network: ws
-  port: 2095
-  server: 104.19.32.216
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 193
-  network: ws
-  port: 2095
-  server: 162.159.140.66
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 071
-  network: ws
-  port: 80
-  server: 104.22.58.63
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8f3e7a5c-9795-40b7-bb59-49892bde5d9c
-  ws-opts:
-    headers:
-      Host: 73012792103530616183052842717949.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 19|🇭🇰 香港4|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 38.147.190.72
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|俄罗斯 007
-  network: ws
-  port: 80
-  server: eedp257bubu2wefy1.lovebaipiao.net
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5b9a6438-84d3-419e-bc32-43acc74b1c3c
-  ws-opts:
-    headers:
-      Host: eedp257bubu2wefy1.lovebaipiao.net
-    path: /iphone
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 018
-  network: ws
-  port: 2082
-  server: 104.16.67.38
-  servername: worker-mute-bar-1719.nifotok993.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: worker-mute-bar-1719.nifotok993.workers.dev
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 221
-  network: ws
-  port: 2082
-  server: 104.19.59.89
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: /
-- name: 13|加拿大 054
-  network: ws
-  password: E-Graphic
-  port: 443
-  server: 104.17.147.22
-  skip-cert-verify: true
-  sni: gcnwoegp2rjvyl7qmmy3ltqtaf3q22.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: gcnwoegp2rjvyl7qmmy3ltqtaf3q22.pages.dev
-    path: /proxyip=62.3.12.185
-- alterId: 1
-  cipher: auto
-  name: 13|美国 044
-  network: ws
-  port: 443
-  server: ritchier.info
-  servername: ritchier.info
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ritchier.info
-    path: /
-- delay: 1195
-  name: 13|美国 088
-  network: ws
-  password: auto
-  port: 2083
-  server: 104.16.134.27
-  sni: trojanfree-76s.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: trojanfree-76s.pages.dev
-    path: /trojanfree-76s.pages.dev/?ed=2560..
-- alterId: 0
-  cipher: auto
-  name: '12,13|美国 CloudFlare节点 #15'
-  network: ws
-  port: 2095
-  server: 172.64.167.44
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- name: 13|巴西 002
-  network: ws
-  password: trojan
-  port: 443
-  server: 185.133.35.46
-  skip-cert-verify: true
-  sni: test-a23.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: test-a23.pages.dev
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 216
-  network: ws
-  port: 2095
-  server: 104.20.17.186
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '2|🇺🇸_US_美国 #2'
-  network: ws
-  port: 34053
-  server: us-sanfrancisco-02.t3csyun.buzz
-  tls: false
-  type: vmess
-  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
-  ws-opts: {}
-- name: 13|澳大利亚 003
-  network: ws
-  password: CMLiu
-  port: 443
-  server: 43.153.80.208
-  sni: aliorg.filegear-sg.me
-  type: trojan
-  ws-opts:
-    headers:
-      Host: aliorg.filegear-sg.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12,13|美国 CloudFlare节点 #2'
-  network: ws
-  port: 443
-  server: 104.21.94.64
-  tls: true
-  type: vmess
-  uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-  ws-opts:
-    headers:
-      Host: linja05.hwcar.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 13|美国 105
-  network: ws
-  port: 2082
-  server: 172.64.167.25
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 098
-  network: ws
-  port: 443
-  server: irhms03.dongfeng.cfd
-  servername: hms03.dongfeng.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: fa5b55cd-cafc-4de0-a4c8-722e02a9f58e
-  ws-opts:
-    headers:
-      Host: hms03.dongfeng.cfd
-    path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 19|🇨🇦 加拿大|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 149.22.95.183
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '12|美国 CloudFlare节点 #17'
-  network: ws
-  port: 2095
-  server: 104.19.21.63
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__4
-  network: ws
-  port: 2086
-  server: 104.19.46.36
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  delay: 1823
-  name: 13|加拿大 005
-  network: ws
-  port: 2082
-  server: www.visa.com
-  servername: ip18.6929198.xyz
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 044
-  network: ws
-  port: 2095
-  server: 172.67.70.92
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '2|🇺🇸_US_美国 #3'
-  network: ws
-  port: 8080
-  server: 148.135.40.190
-  tls: false
-  type: vmess
-  uuid: f6c4905b-0308-4164-b1ad-4157531a8378
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 12|广东省 移动
-  network: ws
-  port: '12941'
-  server: z2.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z2.fragranceninja.com
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|加拿大 043
-  network: ws
-  port: 443
-  server: seribus.org
-  servername: seribus.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: seribus.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|塞浦路斯 001
-  network: ws
-  port: 443
-  server: 195.85.59.22
-  servername: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: 8shhebsj78wjisnbhsjvess-pond-6cc6.cerog91216.workers.dev
-    path: /
-- name: 13|香港 003
-  network: ws
-  password: a3ca0380-8a17-403a-a5b3-a9f6e59be193
-  port: 443
-  server: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
-  skip-cert-verify: true
-  sni: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
-    path: /a3ca0380-8a17-403a-a5b3-a9f6e59be193
-- alterId: 0
-  cipher: auto
-  name: 13|美国 079
-  network: ws
-  port: 2082
-  server: 104.19.45.13
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 137
-  network: ws
-  port: 2095
-  server: 104.19.45.11
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 165
-  network: ws
-  port: 2082
-  server: 172.64.166.28
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 192
-  network: ws
-  port: 2095
-  server: 104.26.7.132
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 19,20|🇩🇪 德国2|@ripaojiedian
-  port: 33288
-  server: 183.236.48.166
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 1|_US__11
-  password: nEyOTWmtPG5tdgZqMQEq4R
-  port: 29814
-  server: 51.141.73.244
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 13|加拿大 008
-  network: ws
-  port: 443
-  server: d.ritchier.info
-  servername: d.ritchier.info
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: d.ritchier.info
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|美国 058
-  network: ws
-  port: 443
-  server: 104.21.83.115
-  servername: hms02.fxiaomi.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
-  ws-opts:
-    headers:
-      Host: hms02.fxiaomi.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  delay: 1127
-  name: 13|美国 197
-  network: ws
-  port: 2095
-  server: 172.64.167.35
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 3,22|🇺🇸_US_美国->🇨🇦_CA_加拿大
-  network: ws
-  port: 2086
-  server: 104.19.47.65
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts: {}
-- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 19|🇸🇬 新加坡3|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.169.139.18
+  name: 19|🇺🇸 美国|@ripaojiedian
+  password: -4-M1Q%$He
+  port: 14416
+  server: 150.241.95.62
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|美国 040
-  network: ws
-  port: 2082
-  server: 172.64.167.8
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip16.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 016
-  network: ws
-  port: 2052
-  server: cf.hy2.one
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5593317a-b77d-45d0-b1a0-51e657a0e7ef
-  ws-opts:
-    headers:
-      Host: sg0002.hy-2.top
-    path: /0
-- alterId: 0
-  cipher: auto
-  name: '3,22|🇺🇸_US_美国 #4'
-  network: ws
-  port: 2082
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸_US_美国
-  network: ws
-  port: 2052
-  server: 104.16.38.71
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: us6_0.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 125
-  network: ws
-  port: 2082
-  server: 104.19.45.11
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 037
-  network: ws
-  port: 443
-  server: 188.114.97.79
-  servername: linde06.indiavideo.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|美国 128
-  network: ws
-  port: 443
-  server: bs.masjidd.homes
-  servername: bs.masjidd.homes
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: bs.masjidd.homes
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 234
-  network: ws
-  port: 2095
-  server: 104.19.42.49
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  delay: 1380
-  name: 13|加拿大 100
-  network: ws
-  port: 2095
-  server: 104.19.45.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 052
-  network: ws
-  port: 443
-  server: hms24.ivideos.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: ivideos.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__14
-  network: ws
-  port: 2086
-  server: 104.19.46.59
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 029
-  network: ws
-  port: 443
-  server: 188.114.96.5
-  servername: linde06.indiavideo.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 12,19,20|广东省广州市 移动
-  network: tcp
-  port: '43526'
-  server: 120.232.153.71
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- alterId: 1
-  cipher: auto
-  name: 13|加拿大 036
-  network: ws
-  port: 443
-  server: d.seribus.org
-  servername: d.seribus.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: d.seribus.org
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|美国 194
-  network: ws
-  port: 443
-  server: d.masjide.org
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: d.masjide.org
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 091
-  network: ws
-  port: 2052
-  server: jx.jixingnetwork.sbs
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5a0c2058-a1dd-4043-93c2-02465ae3cfd0
-  ws-opts:
-    headers:
-      Host: rb03.jixingnetwork.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 130
-  network: ws
-  port: 2095
-  server: 172.64.166.32
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: 1|_US_->_ES_
-  password: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  port: 59019
-  server: fuck5.mmmmmmmmmm.cfd
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 13|加拿大 094
-  network: ws
-  port: 443
-  server: 23.162.200.141
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 23.162.200.141
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 3,22|🇺🇸_US_美国->🇧🇷_BR_巴西
-  network: ws
-  port: 2052
-  server: 104.18.37.248
-  tls: false
-  type: vmess
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 195
-  network: ws
-  port: 2095
-  server: 104.19.59.89
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- cipher: aes-256-cfb
-  name: 1|_FR_->_RU_
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 163.172.64.22
-  type: ss
-- client-fingerprint: chrome
-  name: 19|🇯🇵 日本2|@ripaojiedian
-  password: 5b4becce-5739-483f-97ec-68b81a855d68
-  port: 13013
-  server: naiu-jp.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 061
-  network: ws
-  port: 2082
-  server: skk.moe
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|美国 141
-  network: ws
-  port: 2082
-  server: 172.64.167.5
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 13|美国 064
@@ -3878,243 +4318,56 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 047
-  network: ws
-  port: 2095
-  server: 104.19.57.4
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸_US_美国->🇮🇳_IN_印度
+  name: '2|🇺🇸_US_美国 #1'
   network: ws
   port: 2052
-  server: 104.17.156.224
+  server: hk.wish.ml
   tls: false
   type: vmess
   uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
   ws-opts:
     headers:
-      Host: in4.wish.ml
+      Host: us6_0.wish.ml
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 220
+  delay: 1617
+  name: 13|加拿大 275
   network: ws
   port: 2095
-  server: 104.26.5.66
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 19|🇯🇵 日本4|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  tfo: false
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 13|美国 127
-  network: ws
-  port: 443
-  server: be.anaviriti.info
-  servername: be.anaviriti.info
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: be.anaviriti.info
-    path: /
-- alterId: 1
-  cipher: auto
-  delay: 1224
-  name: 13|德国 010
-  network: ws
-  port: 443
-  server: 23.157.88.6
-  servername: 23.157.88.6
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 23.157.88.6
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 119
-  network: ws
-  port: 2095
-  server: 104.19.123.11
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|加拿大 038
-  network: ws
-  port: 443
-  server: fapeng.org
-  servername: fapeng.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: fapeng.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 2|🇩🇪_DE_德国
-  network: ws
-  port: 45103
-  server: de-frankfurt-oracle-b26cf5.ip1.shop
-  tls: false
-  type: vmess
-  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
-  ws-opts: {}
-- cipher: aes-256-gcm
-  name: 1|_US__7
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.114.114.207
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '2|🇺🇸_US_美国->🇮🇳_IN_印度 #1'
-  network: ws
-  port: 2052
-  server: 172.67.164.78
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: in3.wish.ml
-    path: /
-- alterId: 1
-  cipher: auto
-  delay: 1477
-  name: 13|瑞士 003
-  network: ws
-  port: 443
-  server: 186.190.215.32
-  servername: 186.190.215.32
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: 186.190.215.32
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 1,2,8|_US_->_SG_
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  sni: ''
-  type: vmess
-  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
-- alterId: 1
-  cipher: auto
-  name: 13|美国 192
-  network: ws
-  port: 443
-  server: c.kandap.homes
-  servername: c.kandap.homes
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: c.kandap.homes
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12,13|美国 CloudFlare节点 #12'
-  network: ws
-  port: 2095
-  server: 172.64.166.16
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 014
-  network: ws
-  port: 2082
-  server: 104.19.57.4
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,3,8,22|_US__3
-  network: ws
-  port: 2086
-  server: 104.19.57.4
-  sni: ip11.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 256
-  network: ws
-  port: 2095
-  server: 162.159.140.56
-  skip-cert-verify: true
+  server: 104.19.45.90
+  servername: ip14.6016725.xyz
   tls: false
   type: vmess
   udp: true
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip2.6016725.xyz
-    path: /
+      Host: ip14.6016725.xyz
+    path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 024
+  name: 13|瑞士 001
   network: ws
-  port: 2082
-  server: japan.com
-  skip-cert-verify: true
-  tls: false
+  port: 8080
+  server: xr005.louwangzhiyu.xyz
+  servername: xr001.louwangzhiyu.xyz
+  tls: true
   type: vmess
   udp: true
+  uuid: 6e1ea1c1-c140-4f15-b98e-457390972704
+  ws-opts:
+    headers:
+      Host: www.louwangzhiyu.xyz
+    path: /xyz
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 232
+  network: ws
+  port: 2082
+  server: 104.19.21.230
+  tls: false
+  type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
@@ -4122,211 +4375,49 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 13|日本 003
-  network: ws
-  port: 30005
-  server: 104.233.170.150
-  servername: www.42703225.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  name: '3,22|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
+  network: tcp
+  port: 54002
+  server: 183.240.235.162
+  tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.42703225.xyz
-    path: /path/351212081517
-- cipher: aes-256-cfb
-  name: 1|_US__5
-  password: amazonskr05
-  port: 443
-  server: 3.39.227.28
-  type: ss
 - alterId: 0
   cipher: auto
-  name: '12,13|美国 CloudFlare节点 #9'
+  name: 13|加拿大 007
   network: ws
   port: 2095
-  server: icook.tw
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip2.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '3,22|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
-  network: ws
-  port: 2052
-  server: p3.v2raybrasil.cloud
-  tls: false
-  type: vmess
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 12|广东省广州市 电信
-  network: ws
-  port: '12910'
-  server: z8.fragranceninja.com
-  tls: true
-  type: vmess
-  uuid: a32313ad-5e39-4f9a-9cad-512041790050
-  ws-opts:
-    headers:
-      Host: z8.fragranceninja.com
-    path: /
-- alterId: 1
-  cipher: auto
-  name: 13|加拿大 031
-  network: ws
-  port: 443
-  server: valkinin.org
-  servername: valkinin.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: valkinin.org
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12,13|美国 Fastly全球Anycast节点
-  network: ws
-  port: 443
-  server: speedtest.net
-  tls: true
-  type: vmess
-  uuid: 57727d7d-8873-4000-b3f4-33a93fcfdd51
-  ws-opts:
-    headers:
-      Host: mehrjavan.ir
-    path: /m28jcoZZUhkqg6pk11
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 19|🇰🇷 韩国2|@ripaojiedian
-  password: f2a7baac-c6d4-4d29-aab2-02426814f0ce
-  port: 40015
-  server: hzhz2.sssyun.xyz
-  tfo: false
-  type: ss
-- alterId: 1
-  cipher: auto
-  name: 13|加拿大 027
-  network: ws
-  port: 443
-  server: anaviriti.info
-  servername: anaviriti.info
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: anaviriti.info
-    path: /
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 19|🇸🇬 新加坡|@ripaojiedian
-  password: Paofu
-  plugin: obfs
-  plugin-opts:
-    host: 7c0ad96494.microsoft.com
-    mode: http
-  port: 1190
-  server: 163.177.58.179
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 129
-  network: ws
-  port: 2082
-  server: 104.19.58.175
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip15.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 229
-  network: ws
-  port: 2082
-  server: 104.19.45.50
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip3.6929198.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 138
-  network: ws
-  port: 2082
-  server: 104.19.45.17
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip6.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 184
-  network: ws
-  port: 2095
-  server: www.visa.com
+  server: 104.26.5.67
+  servername: ip2.8084726.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
   ws-opts:
     headers:
-      Host: ip2.6016725.xyz
+      Host: ip2.8084726.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 123
+  name: 13|美国 124
   network: ws
   port: 2095
-  server: 104.19.45.35
+  server: 172.64.167.15
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip2.6016725.xyz
+      Host: ip11.6016725.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,8|_US_->_CA__3
-  network: ws
-  port: 2086
-  server: 104.19.47.32
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 212
+  name: 13|加拿大 214
   network: ws
   port: 2082
-  server: singapore.com
+  server: 162.159.140.77
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -4337,73 +4428,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 071
+  name: 13|加拿大 260
   network: ws
-  port: 8080
-  server: 104.16.60.8
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: 6c47-butterfly-6c47.yexoji3749.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
-- cipher: aes-256-cfb
-  name: 1|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 19,20|🇭🇰 香港3|@ripaojiedian
-  port: 45219
-  server: 103.224.80.27
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ac134134-87e5-42b5-8805-565395a30acc
-- alterId: 0
-  cipher: auto
-  delay: 1688
-  name: 13|美国 227
-  network: ws
-  port: 80
-  server: 151.101.130.133
+  port: 2082
+  server: 104.19.21.71
   skip-cert-verify: true
-  type: vmess
-  udp: true
-  uuid: a888b89a-08ac-40e6-8ad7-cfce9569f967
-  ws-opts:
-    headers:
-      Host: gerMAnyISvP.iR
-    path: /racevpn
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 145
-  network: ws
-  port: 2082
-  server: 104.20.25.146
-  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
       Host: ip3.6929198.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 111
-  network: ws
-  port: 80
-  server: 162.159.136.98
-  type: vmess
-  udp: true
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      Host: rn2.hostmjj.com
-    path: /
+    path: github.com/Alvin9999
