@@ -1,28 +1,96 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 1|_FR_->_RU_
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 163.172.64.22
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__10
+  network: ws
+  port: 2052
+  server: 104.19.46.123
+  sni: cdn2.freegradely.xyz
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+- alterId: 64
+  cipher: auto
+  name: 3,22|🇨🇳_CN_中国
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '14|github.com/freefq - 美国CloudFla... #1'
+  network: ws
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- name: 13|捷克 005
+  network: ws
+  password: SSorg
+  port: 2096
+  server: 188.164.159.107
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|加拿大 009
+  network: ws
+  password: SSorg
+  port: 2083
+  server: 104.19.60.193
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|美国 010
+  network: ws
+  password: SSorg
+  port: 443
+  server: 154.197.64.206
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__14
+  network: ws
+  port: 2086
+  server: 104.19.46.59
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇸🇬 新加坡|@ripaojiedian
+  password: W6L2Z5COWF4TGC8S
+  port: 16015
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
   type: ss
-- name: 13|美国 024
-  network: ws
-  password: SSorg
-  port: 443
-  server: 154.197.64.67
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|加拿大 015
+- name: 13|俄罗斯 004
   network: ws
   password: SSorg
   port: 2083
-  server: 104.18.173.160
+  server: 213.241.198.59
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -31,11 +99,11 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|印度 001
+- name: 13|美国 009
   network: ws
   password: SSorg
-  port: 2087
-  server: 108.165.152.18
+  port: 2096
+  server: 192.200.160.169
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -44,37 +112,21 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|美国 028
+- alterId: 0
+  cipher: auto
+  name: 3,22|🇺🇸_US_美国->🇨🇳_CN_中国
+  network: ws
+  port: 8080
+  server: 104.19.47.16
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts: {}
+- name: 13|加拿大 012
   network: ws
   password: SSorg
-  port: 2083
-  server: 206.238.236.198
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|印尼 001
-  network: ws
-  password: SSorg
-  port: 443
-  server: 46.254.92.191
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|捷克 008
-  network: ws
-  password: SSorg
-  port: 2083
-  server: 188.164.159.138
+  port: 2096
+  server: 172.64.34.52
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -106,125 +158,55 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|斯洛文尼亚 001
-  network: ws
-  password: SSorg
-  port: 2087
-  server: 92.53.190.161
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇯🇵 日本|@ripaojiedian
-  password: U5GAQMMIFQ2FD44A
-  port: 18003
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__2
-  network: ws
-  port: 2086
-  server: 104.19.47.122
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 12,12,19,20|13|🇹🇼 台湾2|@ripaojiedian
-  network: tcp
-  port: 47436
-  server: 103.224.80.116
-  tls: false
-  type: vmess
-  uuid: 37069024-80fb-43ef-9ef2-b37a010a48e8
-- alterId: 64
-  cipher: auto
-  name: 12,12,19,20|13|🇭🇰 香港4|@ripaojiedian
-  network: tcp
-  port: 34493
-  server: 120.198.71.214
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US_->_CN__1
-  network: ws
-  port: 2052
-  server: 104.19.21.240
-  sni: cdn2.freegradely.xyz
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__6
-  network: ws
-  port: 2086
-  server: 104.20.25.146
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 1,2,8|_US_->_SG_
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  sni: ''
-  type: vmess
-  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
-- cipher: chacha20-ietf-poly1305
-  name: 1|_US__11
-  password: nEyOTWmtPG5tdgZqMQEq4R
-  port: 29814
-  server: 51.141.73.244
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 3,22|🇺🇸_US_美国->🇨🇳_CN_中国
-  network: ws
-  port: 8080
-  server: 104.19.47.16
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '3,22|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts: {}
-- name: 13|美国 035
-  network: ws
-  password: SSorg
-  port: 2083
-  server: 161.145.150.29
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|加拿大 012
+- name: 13|俄罗斯 002
   network: ws
   password: SSorg
   port: 2096
-  server: 172.64.34.52
+  server: 45.67.215.250
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: 1,3,8,22|_US__9
+  network: ws
+  port: 2086
+  server: 104.18.57.111
+  sni: ip11.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- name: 13|美国 030
+  network: ws
+  password: SSorg
+  port: 2083
+  server: 135.84.64.36
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__16
+  network: ws
+  port: 2086
+  server: 104.19.45.15
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- name: 13|哈萨克斯坦 001
+  network: ws
+  password: SSorg
+  port: 2053
+  server: 31.43.179.60
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -242,6 +224,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇺🇸_US_美国 #4'
+  network: ws
+  port: 2082
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
+  ws-opts: {}
+- cipher: aes-256-cfb
+  name: 1|_FR_->_RU_
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 163.172.64.22
+  type: ss
 - alterId: 64
   cipher: auto
   name: 12,12,19,20|13|🇭🇰 香港5|@ripaojiedian
@@ -251,648 +249,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|印度 006
-  network: ws
-  password: SSorg
-  port: 8443
-  server: 108.165.152.65
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|新加坡 001
-  network: ws
-  password: SSorg
-  port: 443
-  server: 43.156.53.68
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|捷克 009
-  network: ws
-  password: SSorg
-  port: 443
-  server: 188.164.159.171
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|美国 010
-  network: ws
-  password: SSorg
-  port: 443
-  server: 154.197.64.206
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  name: '3,22|🇺🇸_US_美国 #6'
-  network: ws
-  port: 8080
-  server: russia.com
-  tls: false
-  type: vmess
-  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
-  ws-opts: {}
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇸🇬 新加坡|@ripaojiedian
-  password: W6L2Z5COWF4TGC8S
-  port: 16015
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 14,14,14|github.com/freefq - 印度  2
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
-- name: 13|澳大利亚 001
-  network: ws
-  password: SSorg
-  port: 34237
-  server: 37.123.192.214
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  name: 12|0|--35
-  network: ws
-  port: 443
-  server: 163.5.159.231
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
-- name: 13|美国 036
-  network: ws
-  password: SSorg
-  port: 2096
-  server: 108.165.152.14
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|美国 009
-  network: ws
-  password: SSorg
-  port: 2096
-  server: 192.200.160.169
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  name: '14|github.com/freefq - 美国CloudFla... #3'
-  network: ws
-  port: 8880
-  server: server32.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  ws-opts:
-    headers:
-      Host: server32.beheshtbaneh.com
-    path: /
-- cipher: aes-256-cfb
-  name: 1|_US__5
-  password: amazonskr05
-  port: 443
-  server: 3.39.227.28
-  type: ss
-- name: 13|加拿大 007
-  network: ws
-  password: SSorg
-  port: 443
-  server: 108.162.194.193
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
-- name: 13|美国 012
-  network: ws
-  password: SSorg
-  port: 2083
-  server: 154.197.64.62
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|俄罗斯 006
-  network: ws
-  password: SSorg
-  port: 8443
-  server: 92.243.74.180
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|印度 004
-  network: ws
-  password: SSorg
-  port: 2096
-  server: 108.165.152.40
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|俄罗斯 004
-  network: ws
-  password: SSorg
-  port: 2083
-  server: 213.241.198.59
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|美国 038
-  network: ws
-  password: SSorg
-  port: 443
-  server: 199.231.45.35
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: aes-256-cfb
-  name: 1|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
-- name: 13|俄罗斯 005
-  network: ws
-  password: SSorg
-  port: 8443
-  server: 46.254.93.37
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 64
-  cipher: auto
-  delay: 2126
-  name: 13|美国 006
-  network: ws
-  port: 30004
-  server: 192.74.236.156
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.91334565.xyz
-    path: /path/1736329715306
-- name: 13|俄罗斯 002
-  network: ws
-  password: SSorg
-  port: 2096
-  server: 45.67.215.250
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|美国 030
-  network: ws
-  password: SSorg
-  port: 2083
-  server: 135.84.64.36
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  name: 14|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
-- name: 13|俄罗斯 007
-  network: ws
-  password: SSorg
-  port: 2096
-  server: 5.182.85.189
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US_->_CN__2
-  network: ws
-  port: 8080
-  server: 104.19.47.126
-  sni: ''
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-- name: 13|美国 040
-  network: ws
-  password: SSorg
-  port: 2083
-  server: 155.46.213.38
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|印度 003
-  network: ws
-  password: SSorg
-  port: 2083
-  server: 108.165.152.225
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|美国 013
-  network: ws
-  password: SSorg
-  port: 443
-  server: 199.34.228.187
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  name: '3,22|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
-  network: ws
-  port: 2086
-  server: 172.64.175.213
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: 6mHwqI1HSSVtXxCxshcV
-  name: 13|加拿大 002
-  network: grpc
-  port: 443
-  server: 104.21.69.44
-  servername: sth.happyground.ir
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c3c39f39-d8f1-47ad-b0ee-9308bbca4ab0
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇭🇰 香港8|@ripaojiedian
-  password: 6LE2F7E2WQWGJEYG
-  port: 15003
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 19|🇹🇼 台湾|@ripaojiedian
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: tw01.trojanyyds.xyz
-  skip-cert-verify: false
-  sni: tw01.trojanyyds.xyz
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__13
-  network: ws
-  port: 2086
-  server: 104.19.46.233
-  sni: ''
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
 - name: 13|阿联酋 001
   network: ws
   password: SSorg
   port: 2053
   server: 77.232.140.101
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  name: '2|🇷🇺_RU_俄罗斯联邦 #1'
-  network: ws
-  port: 12910
-  server: 45.136.245.240
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
-- name: 13|美国 031
-  network: ws
-  password: SSorg
-  port: 2087
-  server: 108.162.194.223
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 19|tg频道:@ripaojiedian
-  port: 4000
-  server: ftq.ink
-  tls: true
-  type: http
-- alterId: 0
-  cipher: auto
-  name: '2|🇺🇸_US_美国->🇮🇳_IN_印度 #1'
-  network: ws
-  port: 2052
-  server: 172.67.164.78
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: in3.wish.ml
-    path: /
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇭🇰 香港6|@ripaojiedian
-  password: qwerREWQ@@
-  port: 4231
-  server: 112.213.102.228
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '2|🇺🇸_US_美国 #2'
-  network: ws
-  port: 34053
-  server: us-sanfrancisco-02.t3csyun.buzz
-  tls: false
-  type: vmess
-  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
-  ws-opts: {}
-- alterId: 64
-  cipher: auto
-  name: 12,12,19,20|13|🇭🇰 香港3|@ripaojiedian
-  network: tcp
-  port: 52908
-  server: 120.234.102.229
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|印尼 002
-  network: ws
-  password: SSorg
-  port: 2087
-  server: 46.254.92.142
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  name: 3,22|🇺🇸_US_美国->🇧🇷_BR_巴西
-  network: ws
-  port: 2052
-  server: 104.18.37.248
-  tls: false
-  type: vmess
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  ws-opts: {}
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇸🇬 新加坡4|@ripaojiedian
-  password: DNYXV60QG2Q7I15T
-  port: 16009
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 19|🇭🇰 香港7|@ripaojiedian
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: hk03.trojanyyds.xyz
-  skip-cert-verify: false
-  sni: hk03.trojanyyds.xyz
-  type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇺🇸 美国2|@ripaojiedian
-  password: IY8P2O7XIQZVL9JE
-  port: 17001
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 21|SCP2
-  network: ws
-  port: '443'
-  server: www.smcacre.gov
-  servername: www.smcacre.gov
-  tls: true
-  type: vmess
-  uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b
-  ws-opts:
-    headers:
-      Host: lajihuawei.com
-    path: /3cc8e2d2
-- alterId: 0
-  cipher: auto
-  name: 1,3,8,22|_US__3
-  network: ws
-  port: 2086
-  server: 104.19.57.4
-  sni: ip11.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- name: 13|菲律宾 001
-  network: ws
-  password: SSorg
-  port: 2083
-  server: 154.83.2.88
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|捷克 004
-  network: ws
-  password: SSorg
-  port: 2096
-  server: 188.164.159.55
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  name: 12|0|--40
-  network: ws
-  port: 443
-  server: 57.129.25.22
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: o.metuji.com
-    path: /linkvws
-- alterId: 64
-  cipher: auto
-  name: 13|美国 001
-  network: tcp
-  port: 41400
-  server: 198.2.218.100
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|美国 023
-  network: ws
-  password: SSorg
-  port: 443
-  server: 206.238.236.16
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -914,11 +275,11 @@ proxies:
     headers:
       Host: in4.wish.ml
     path: /
-- name: 13|美国 020
+- name: 13|俄罗斯 003
   network: ws
   password: SSorg
-  port: 2053
-  server: 167.68.42.113
+  port: 2087
+  server: 5.182.84.229
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -927,11 +288,19 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|哈萨克斯坦 001
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇰🇷 韩国|@ripaojiedian
+  password: qwerREWQ@@
+  port: 58368
+  server: p199.panda003.net
+  tfo: false
+  type: ss
+- name: 13|美国 014
   network: ws
   password: SSorg
-  port: 2053
-  server: 31.43.179.60
+  port: 2087
+  server: 206.238.237.81
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -940,11 +309,35 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|立陶宛 002
+- alterId: 64
+  cipher: auto
+  name: 12,12,19,20|13|🇭🇰 香港3|@ripaojiedian
+  network: tcp
+  port: 52908
+  server: 120.234.102.229
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇺🇸 美国2|@ripaojiedian
+  password: IY8P2O7XIQZVL9JE
+  port: 17001
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 19,19|🇭🇰 香港|@ripaojiedian
+  password: vzhXXZVw
+  port: 18681
+  server: 36.150.215.196
+  skip-cert-verify: true
+  type: trojan
+- name: 13|印度 008
   network: ws
   password: SSorg
-  port: 443
-  server: 86.38.214.186
+  port: 8443
+  server: 108.165.152.38
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -953,6 +346,75 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: 14|github.com/freefq - 广东省移动 7
+  network: ws
+  port: '20401'
+  server: data-us-v1.shwjfkw.cn
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-us-v1.shwjfkw.cn
+    path: /debian
+- name: 13|捷克 006
+  network: ws
+  password: SSorg
+  port: 2083
+  server: 188.164.159.98
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '2|🇺🇸_US_美国 #3'
+  network: ws
+  port: 8080
+  server: 148.135.40.190
+  tls: false
+  type: vmess
+  uuid: f6c4905b-0308-4164-b1ad-4157531a8378
+  ws-opts: {}
+- name: 13|美国 012
+  network: ws
+  password: SSorg
+  port: 2083
+  server: 154.197.64.62
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 64
+  cipher: auto
+  name: 12,12,19,20|13|🇭🇰 香港4|@ripaojiedian
+  network: tcp
+  port: 34493
+  server: 120.198.71.214
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 1,8|_US_->_CA__1
@@ -962,45 +424,19 @@ proxies:
   sni: ip14.freegradely.xyz
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__8
-  network: ws
-  port: 2086
-  server: 104.19.21.230
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__14
-  network: ws
-  port: 2086
-  server: 104.19.46.59
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 19|🇸🇬 狮城特殊|@ripaojiedian
+  name: 19|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.250.107.170
+  server: 3.0.103.234
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,3,8,22|_US__9
-  network: ws
-  port: 2086
-  server: 104.18.57.111
-  sni: ip11.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- name: 13|美国 022
+- name: 13|印度 003
   network: ws
   password: SSorg
-  port: 8443
-  server: 192.200.160.19
+  port: 2083
+  server: 108.165.152.225
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1009,21 +445,11 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  name: '3,22|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
-  network: ws
-  port: 2052
-  server: p3.v2raybrasil.cloud
-  tls: false
-  type: vmess
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  ws-opts: {}
-- name: 13|美国 029
+- name: 13|印度 004
   network: ws
   password: SSorg
-  port: 8443
-  server: 206.238.236.31
+  port: 2096
+  server: 108.165.152.40
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1032,21 +458,24 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  name: '3,22|🇺🇸_US_美国 #5'
+- name: 13|加拿大 008
   network: ws
-  port: 2086
-  server: 104.19.32.46
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts: {}
-- name: 13|印度 005
+  password: SSorg
+  port: 2096
+  server: 104.19.60.104
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|美国 039
   network: ws
   password: SSorg
   port: 2087
-  server: 108.165.152.25
+  server: 104.36.195.231
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1055,11 +484,11 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|美国 011
+- name: 13|俄罗斯 006
   network: ws
   password: SSorg
   port: 8443
-  server: 160.79.104.131
+  server: 92.243.74.180
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1068,15 +497,77 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
+- name: 13|菲律宾 001
+  network: ws
+  password: SSorg
+  port: 2083
+  server: 154.83.2.88
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 64
   cipher: auto
-  name: 2|🇷🇺_RU_俄罗斯联邦
+  name: 13|美国 008
   network: tcp
-  port: 35972
-  server: 45.147.200.170
+  port: 41400
+  server: 198.2.218.108
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 12|0|--35
+  network: ws
+  port: 443
+  server: 163.5.159.231
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+- name: 13|加拿大 010
+  network: ws
+  password: SSorg
+  port: 443
+  server: 173.245.59.203
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- client-fingerprint: chrome
+  name: 19|🇭🇰 香港7|@ripaojiedian
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: hk03.trojanyyds.xyz
+  skip-cert-verify: false
+  sni: hk03.trojanyyds.xyz
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 12|0|--40
+  network: ws
+  port: 443
+  server: 57.129.25.22
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: o.metuji.com
+    path: /linkvws
 - name: 13|捷克 002
   network: ws
   password: SSorg
@@ -1092,33 +583,29 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - alterId: 0
   cipher: auto
-  name: 13|立陶宛 001
+  name: 1,3,8,22|_US__3
   network: ws
-  port: 80
-  server: 94.131.14.177
-  skip-cert-verify: true
-  tls: false
+  port: 2086
+  server: 104.19.57.4
+  sni: ip11.freegradely.xyz
   type: vmess
-  uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781
-  ws-opts:
-    headers:
-      Host: lt2-vmess.sshmax.xyz
-    path: /vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
 - alterId: 0
   cipher: auto
-  name: '3,22|🇺🇸_US_美国 #4'
+  name: '2|🇷🇺_RU_俄罗斯联邦 #1'
   network: ws
-  port: 2082
-  server: cfcdn1.sanfencdn9.com
-  tls: false
+  port: 12910
+  server: 45.136.245.240
+  tls: true
   type: vmess
-  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
-  ws-opts: {}
-- name: 13|美国 027
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- name: 13|捷克 004
   network: ws
   password: SSorg
-  port: 2087
-  server: 199.34.228.164
+  port: 2096
+  server: 188.164.159.55
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1127,55 +614,11 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.0.103.234
-  tfo: false
-  type: ss
-- name: 13|日本 002
-  network: tcp
-  password: 5586eb05-1e5c-4b27-a276-86311547b95e
-  port: 443
-  server: waphk.mjt000.com
-  skip-cert-verify: true
-  sni: waphk.mjt000.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__4
-  network: ws
-  port: 2086
-  server: 104.19.46.36
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 12|16|d*********g.com_2
-  network: tcp
-  port: '443'
-  server: 42.236.73.72
-  servername: www.zitian.cn
-  tls: true
-  type: vmess
-  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.254.26.119
-  tfo: false
-  type: ss
-- name: 13|加拿大 013
+- name: 13|印尼 002
   network: ws
   password: SSorg
-  port: 2053
-  server: 173.245.59.213
+  port: 2087
+  server: 46.254.92.142
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1199,18 +642,33 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - alterId: 0
   cipher: auto
-  name: 1,8|_US__10
+  grpc-opts:
+    grpc-service-name: 6mHwqI1HSSVtXxCxshcV
+  name: 13|加拿大 002
+  network: grpc
+  port: 443
+  server: 104.21.69.44
+  servername: sth.happyground.ir
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c3c39f39-d8f1-47ad-b0ee-9308bbca4ab0
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US_->_CN__1
   network: ws
   port: 2052
-  server: 104.19.46.123
+  server: 104.19.21.240
   sni: cdn2.freegradely.xyz
   type: vmess
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-- name: 13|捷克 001
+- name: 13|立陶宛 002
   network: ws
   password: SSorg
-  port: 8443
-  server: 188.164.159.185
+  port: 443
+  server: 86.38.214.186
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1219,24 +677,33 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|美国 014
-  network: ws
-  password: SSorg
-  port: 2087
-  server: 206.238.237.81
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
+- client-fingerprint: chrome
+  name: 19|🇹🇼 台湾|@ripaojiedian
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: tw01.trojanyyds.xyz
+  skip-cert-verify: false
+  sni: tw01.trojanyyds.xyz
   type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|立陶宛 001
+  network: ws
+  port: 80
+  server: 94.131.14.177
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 2c5fee13-f08b-4ba8-86db-27dd51cb9781
   ws-opts:
     headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|法国 003
+      Host: lt2-vmess.sshmax.xyz
+    path: /vmess
+- name: 13|加拿大 013
   network: ws
   password: SSorg
-  port: 8443
-  server: 141.11.203.191
+  port: 2053
+  server: 173.245.59.213
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1247,19 +714,46 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - alterId: 0
   cipher: auto
-  name: 2|🇨🇳_CN_中国->🇺🇸_US_美国
-  network: ws
-  port: 16928
-  server: vip3.niuniupremium.xyz
+  name: 2|🇷🇺_RU_俄罗斯联邦
+  network: tcp
+  port: 35972
+  server: 45.147.200.170
   tls: false
   type: vmess
-  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
+  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
+- alterId: 0
+  cipher: auto
+  name: '2|🇺🇸_US_美国 #2'
+  network: ws
+  port: 34053
+  server: us-sanfrancisco-02.t3csyun.buzz
+  tls: false
+  type: vmess
+  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
   ws-opts: {}
-- name: 13|美国 037
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US_->_CN__2
+  network: ws
+  port: 8080
+  server: 104.19.47.126
+  sni: ''
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US_->_CA__3
+  network: ws
+  port: 2086
+  server: 104.19.47.32
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- name: 13|新加坡 001
   network: ws
   password: SSorg
-  port: 2087
-  server: 160.79.105.80
+  port: 443
+  server: 43.156.53.68
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1268,11 +762,19 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|捷克 006
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇭🇰 香港8|@ripaojiedian
+  password: 6LE2F7E2WQWGJEYG
+  port: 15003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- name: 13|印度 001
   network: ws
   password: SSorg
-  port: 2083
-  server: 188.164.159.98
+  port: 2087
+  server: 108.165.152.18
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1295,20 +797,155 @@ proxies:
     headers:
       Host: PARspacK51.eSMAIlkOrEA.sHoP
     path: /?ed=2048
-- delay: 1295
-  name: 13|法国 002
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.181.92.76
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 13|美国 021
+- name: 13|美国 023
   network: ws
   password: SSorg
-  port: 2053
-  server: 206.238.237.47
+  port: 443
+  server: 206.238.236.16
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
+  network: ws
+  port: 16928
+  server: 120.232.240.56
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 13|美国 004
+  network: ws
+  port: 2086
+  server: 104.21.89.219
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+  ws-opts:
+    headers:
+      Host: shs.xiaoqi666.xyz
+    path: /
+- name: 13|美国 026
+  network: ws
+  password: SSorg
+  port: 2087
+  server: 199.34.228.48
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|美国 035
+  network: ws
+  password: SSorg
+  port: 2083
+  server: 161.145.150.29
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|美国 036
+  network: ws
+  password: SSorg
+  port: 2096
+  server: 108.165.152.14
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US_->_CA__2
+  network: ws
+  port: 2086
+  server: 104.19.46.39
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__12
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  sni: ''
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇯🇵 日本|@ripaojiedian
+  password: U5GAQMMIFQ2FD44A
+  port: 18003
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|美国 003
+  network: ws
+  port: 443
+  server: jahfkjha.cfd
+  servername: jahfkjha.cfd
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 21|SCP2
+  network: ws
+  port: '443'
+  server: www.smcacre.gov
+  servername: www.smcacre.gov
+  tls: true
+  type: vmess
+  uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b
+  ws-opts:
+    headers:
+      Host: lajihuawei.com
+    path: /3cc8e2d2
+- name: 13|美国 022
+  network: ws
+  password: SSorg
+  port: 8443
+  server: 192.200.160.19
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|美国 029
+  network: ws
+  password: SSorg
+  port: 8443
+  server: 206.238.236.31
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1318,43 +955,59 @@ proxies:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
 - client-fingerprint: chrome
-  name: 19,19|🇭🇰 香港|@ripaojiedian
-  password: vzhXXZVw
-  port: 18681
-  server: 36.150.215.196
-  skip-cert-verify: true
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 14|github.com/freefq - 美国Fastly全球...
-  network: ws
+  name: 19,19|🇸🇬 新加坡2|@ripaojiedian
+  password: '!!str 3723507166611775488'
   port: 443
-  server: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- alterId: 0
-  cipher: auto
-  name: 2|🇺🇸_US_美国
+  server: major-reindeer.boa152.lol
+  skip-cert-verify: false
+  sni: major-reindeer.boa152.lol
+  type: trojan
+- name: 13|印度 005
   network: ws
-  port: 2052
-  server: 104.16.38.71
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  password: SSorg
+  port: 2087
+  server: 108.165.152.25
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: us6_0.wish.ml
-    path: /
-- name: 13|加拿大 010
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- delay: 1295
+  name: 13|法国 002
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.181.92.76
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 1|_US_->_ES_
+  password: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  port: 59019
+  server: fuck5.mmmmmmmmmm.cfd
+  type: ss
+- name: 13|捷克 003
+  network: ws
+  password: SSorg
+  port: 8443
+  server: 188.164.159.45
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|捷克 009
   network: ws
   password: SSorg
   port: 443
-  server: 173.245.59.203
+  server: 188.164.159.171
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1365,19 +1018,206 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - alterId: 0
   cipher: auto
-  name: 2|🇩🇪_DE_德国
+  name: 2|🇨🇳_CN_中国->🇺🇸_US_美国
   network: ws
-  port: 45103
-  server: de-frankfurt-oracle-b26cf5.ip1.shop
+  port: 16928
+  server: vip3.niuniupremium.xyz
   tls: false
   type: vmess
-  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
+  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
   ws-opts: {}
-- name: 13|亚美尼亚 001
+- name: 13|美国 007
+  network: tcp
+  password: 0bfa2050-b165-4156-859c-70f36d300dce
+  port: 20230
+  server: jp006.421421.xyz
+  skip-cert-verify: true
+  sni: 421421.xyz
+  type: trojan
+  udp: true
+- name: 13|美国 028
+  network: ws
+  password: SSorg
+  port: 2083
+  server: 206.238.236.198
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|加拿大 007
+  network: ws
+  password: SSorg
+  port: 443
+  server: 108.162.194.193
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|印度 006
+  network: ws
+  password: SSorg
+  port: 8443
+  server: 108.165.152.65
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|俄罗斯 007
   network: ws
   password: SSorg
   port: 2096
-  server: 188.164.159.246
+  server: 5.182.85.189
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 19|tg频道:@ripaojiedian
+  port: 4000
+  server: ftq.ink
+  tls: true
+  type: http
+- cipher: aes-256-gcm
+  name: 1|_US__7
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.114.114.207
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 3,22|🇺🇸_US_美国->🇧🇷_BR_巴西
+  network: ws
+  port: 2052
+  server: 104.18.37.248
+  tls: false
+  type: vmess
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__2
+  network: ws
+  port: 2086
+  server: 104.19.47.122
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 2086
+  server: 172.64.175.213
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 14|github.com/freefq - 美国CloudFla...
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,2,8|_US_->_SG_
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  sni: ''
+  type: vmess
+  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+- name: 13|澳大利亚 001
+  network: ws
+  password: SSorg
+  port: 34237
+  server: 37.123.192.214
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇺🇸_US_美国 #5'
+  network: ws
+  port: 2086
+  server: 104.19.32.46
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts: {}
+- alterId: 64
+  cipher: auto
+  name: '3,22|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
+  network: tcp
+  port: 54002
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '2|🇺🇸_US_美国->🇮🇳_IN_印度 #1'
+  network: ws
+  port: 2052
+  server: 172.67.164.78
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: in3.wish.ml
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 1|_US__11
+  password: nEyOTWmtPG5tdgZqMQEq4R
+  port: 29814
+  server: 51.141.73.244
+  type: ss
+- name: 13|捷克 001
+  network: ws
+  password: SSorg
+  port: 8443
+  server: 188.164.159.185
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1399,228 +1239,12 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|印度 002
-  network: ws
-  password: SSorg
-  port: 2087
-  server: 108.165.152.163
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|美国 007
-  network: tcp
-  password: 0bfa2050-b165-4156-859c-70f36d300dce
-  port: 20230
-  server: jp006.421421.xyz
-  skip-cert-verify: true
-  sni: 421421.xyz
-  type: trojan
-  udp: true
-- name: 13|捷克 003
-  network: ws
-  password: SSorg
-  port: 8443
-  server: 188.164.159.45
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|美国 039
-  network: ws
-  password: SSorg
-  port: 2087
-  server: 104.36.195.231
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- client-fingerprint: chrome
-  name: 19,19|🇸🇬 新加坡2|@ripaojiedian
-  password: '!!str 3723507166611775488'
-  port: 443
-  server: major-reindeer.boa152.lol
-  skip-cert-verify: false
-  sni: major-reindeer.boa152.lol
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: '14|github.com/freefq - 美国CloudFla... #2'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US_->_CA__3
+  name: 1,8|_US__6
   network: ws
   port: 2086
-  server: 104.19.47.32
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: '3,22|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
-  network: ws
-  port: 16928
-  server: 120.232.240.56
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts: {}
-- alterId: 64
-  cipher: auto
-  name: '3,22|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
-  network: tcp
-  port: 54002
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇰🇷 韩国|@ripaojiedian
-  password: qwerREWQ@@
-  port: 58368
-  server: p199.panda003.net
-  tfo: false
-  type: ss
-- name: 13|美国 033
-  network: ws
-  password: SSorg
-  port: 8443
-  server: 216.198.53.212
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: chacha20-ietf-poly1305
-  name: 1|_US_->_ES_
-  password: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  port: 59019
-  server: fuck5.mmmmmmmmmm.cfd
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: '2|🇺🇸_US_美国 #3'
-  network: ws
-  port: 8080
-  server: 148.135.40.190
-  tls: false
-  type: vmess
-  uuid: f6c4905b-0308-4164-b1ad-4157531a8378
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 14|github.com/freefq - 广东省移动 7
-  network: ws
-  port: '20401'
-  server: data-us-v1.shwjfkw.cn
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__15
-  network: ws
-  port: 2086
-  server: 104.19.46.27
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- name: 13|美国 025
-  network: ws
-  password: SSorg
-  port: 2083
-  server: 192.0.54.221
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|加拿大 011
-  network: ws
-  password: SSorg
-  port: 2087
-  server: 104.19.60.99
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 64
-  cipher: auto
-  name: 3,22|🇨🇳_CN_中国
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '14|github.com/freefq - 美国CloudFla... #1'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US__16
-  network: ws
-  port: 2086
-  server: 104.19.45.15
-  sni: ''
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 1,8|_US_->_CA__4
-  network: ws
-  port: 2086
-  server: 104.19.45.47
+  server: 104.20.25.146
   sni: ip14.freegradely.xyz
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
@@ -1635,19 +1259,24 @@ proxies:
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
 - alterId: 64
   cipher: auto
-  name: 13|美国 008
-  network: tcp
-  port: 41400
-  server: 198.2.218.108
+  delay: 2126
+  name: 13|美国 006
+  network: ws
+  port: 30004
+  server: 192.74.236.156
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|俄罗斯 003
+  ws-opts:
+    headers:
+      Host: www.91334565.xyz
+    path: /path/1736329715306
+- name: 13|加拿大 015
   network: ws
   password: SSorg
-  port: 2087
-  server: 5.182.84.229
+  port: 2083
+  server: 104.18.173.160
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1656,29 +1285,6 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇭🇰 香港9|@ripaojiedian
-  password: Y4JZ69NZ4IMSVWMC
-  port: 15011
-  server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|美国 003
-  network: ws
-  port: 443
-  server: jahfkjha.cfd
-  servername: jahfkjha.cfd
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
 - alterId: 0
   cipher: auto
   name: '2|🇺🇸_US_美国 #1'
@@ -1692,11 +1298,143 @@ proxies:
     headers:
       Host: us6_0.wish.ml
     path: /
-- name: 13|美国 032
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 003
+  network: ws
+  port: 443
+  server: 172.67.204.19
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
+- name: 13|美国 021
+  network: ws
+  password: SSorg
+  port: 2053
+  server: 206.238.237.47
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|俄罗斯 005
+  network: ws
+  password: SSorg
+  port: 8443
+  server: 46.254.93.37
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇸🇬 新加坡4|@ripaojiedian
+  password: DNYXV60QG2Q7I15T
+  port: 16009
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- name: 13|捷克 008
   network: ws
   password: SSorg
   port: 2083
-  server: 108.165.152.31
+  server: 188.164.159.138
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 54.254.26.119
+  tfo: false
+  type: ss
+- name: 13|美国 011
+  network: ws
+  password: SSorg
+  port: 8443
+  server: 160.79.104.131
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: 12,12,19,20|13|🇹🇼 台湾2|@ripaojiedian
+  network: tcp
+  port: 47436
+  server: 103.224.80.116
+  tls: false
+  type: vmess
+  uuid: 37069024-80fb-43ef-9ef2-b37a010a48e8
+- name: 13|美国 020
+  network: ws
+  password: SSorg
+  port: 2053
+  server: 167.68.42.113
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|亚美尼亚 001
+  network: ws
+  password: SSorg
+  port: 2096
+  server: 188.164.159.246
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: 14|github.com/freefq - 美国Fastly全球...
+  network: ws
+  port: 443
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- name: 13|印度 007
+  network: ws
+  password: SSorg
+  port: 2087
+  server: 108.165.152.143
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1715,45 +1453,236 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 003
+  name: '3,22|🇺🇸_US_美国 #6'
   network: ws
-  port: 443
-  server: 172.67.204.19
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
-- alterId: 0
-  cipher: auto
-  name: 13|美国 004
-  network: ws
-  port: 2086
-  server: 104.21.89.219
-  skip-cert-verify: false
+  port: 8080
+  server: russia.com
   tls: false
   type: vmess
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-  ws-opts:
-    headers:
-      Host: shs.xiaoqi666.xyz
-    path: /
-- cipher: aes-256-gcm
-  name: 1|_US__7
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.114.114.207
-  type: ss
-- name: 13|加拿大 008
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
+  ws-opts: {}
+- name: 13|法国 003
   network: ws
   password: SSorg
-  port: 2096
-  server: 104.19.60.104
+  port: 8443
+  server: 141.11.203.191
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|美国 040
+  network: ws
+  password: SSorg
+  port: 2083
+  server: 155.46.213.38
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: aes-256-cfb
+  name: 1|_US__5
+  password: amazonskr05
+  port: 443
+  server: 3.39.227.28
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.250.107.170
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '14|github.com/freefq - 美国CloudFla... #3'
+  network: ws
+  port: 8880
+  server: server32.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  ws-opts:
+    headers:
+      Host: server32.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 2|🇩🇪_DE_德国
+  network: ws
+  port: 45103
+  server: de-frankfurt-oracle-b26cf5.ip1.shop
+  tls: false
+  type: vmess
+  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 12|16|d*********g.com_2
+  network: tcp
+  port: '443'
+  server: 42.236.73.72
+  servername: www.zitian.cn
+  tls: true
+  type: vmess
+  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US_->_CA__4
+  network: ws
+  port: 2086
+  server: 104.19.45.47
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- name: 13|美国 033
+  network: ws
+  password: SSorg
+  port: 8443
+  server: 216.198.53.212
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__4
+  network: ws
+  port: 2086
+  server: 104.19.46.36
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- cipher: aes-256-cfb
+  name: 1|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
+- name: 13|印度 002
+  network: ws
+  password: SSorg
+  port: 2087
+  server: 108.165.152.163
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇭🇰 香港9|@ripaojiedian
+  password: Y4JZ69NZ4IMSVWMC
+  port: 15011
+  server: qh62onjn.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- name: 13|美国 038
+  network: ws
+  password: SSorg
+  port: 443
+  server: 199.231.45.35
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|日本 002
+  network: tcp
+  password: 5586eb05-1e5c-4b27-a276-86311547b95e
+  port: 443
+  server: waphk.mjt000.com
+  skip-cert-verify: true
+  sni: waphk.mjt000.com
+  type: trojan
+  udp: true
+- name: 13|美国 031
+  network: ws
+  password: SSorg
+  port: 2087
+  server: 108.162.194.223
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|美国 027
+  network: ws
+  password: SSorg
+  port: 2087
+  server: 199.34.228.164
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 13|美国 032
+  network: ws
+  password: SSorg
+  port: 2083
+  server: 108.165.152.31
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alterId: 0
+  cipher: auto
+  name: '3,22|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
+  network: ws
+  port: 2052
+  server: p3.v2raybrasil.cloud
+  tls: false
+  type: vmess
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  ws-opts: {}
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇭🇰 香港6|@ripaojiedian
+  password: qwerREWQ@@
+  port: 4231
+  server: 112.213.102.228
+  tfo: false
+  type: ss
+- name: 13|美国 024
+  network: ws
+  password: SSorg
+  port: 443
+  server: 154.197.64.67
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1778,11 +1707,32 @@ proxies:
     headers:
       Host: www.38740067.xyz
     path: /path/1736157577885
-- name: 13|捷克 005
+- alterId: 0
+  cipher: auto
+  name: 2|🇺🇸_US_美国
+  network: ws
+  port: 2052
+  server: 104.16.38.71
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: us6_0.wish.ml
+    path: /
+- alterId: 64
+  cipher: auto
+  name: 13|美国 001
+  network: tcp
+  port: 41400
+  server: 198.2.218.100
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 13|印尼 001
   network: ws
   password: SSorg
-  port: 2096
-  server: 188.164.159.107
+  port: 443
+  server: 46.254.92.191
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1793,13 +1743,54 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - alterId: 0
   cipher: auto
-  name: 1,8|_US__12
+  name: '14|github.com/freefq - 美国CloudFla... #2'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14,14,14|github.com/freefq - 印度  2
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__13
   network: ws
   port: 2086
-  server: 104.19.51.232
+  server: 104.19.46.233
   sni: ''
   type: vmess
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+- name: 13|美国 025
+  network: ws
+  password: SSorg
+  port: 2083
+  server: 192.0.54.221
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: 13|美国 034
   network: ws
   password: SSorg
@@ -1813,11 +1804,20 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|美国 026
+- alterId: 0
+  cipher: auto
+  name: 1,8|_US__15
+  network: ws
+  port: 2086
+  server: 104.19.46.27
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- name: 13|加拿大 011
   network: ws
   password: SSorg
   port: 2087
-  server: 199.34.228.48
+  server: 104.19.60.99
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1826,11 +1826,11 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|加拿大 009
+- name: 13|美国 013
   network: ws
   password: SSorg
-  port: 2083
-  server: 104.19.60.193
+  port: 443
+  server: 199.34.228.187
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1839,24 +1839,11 @@ proxies:
     headers:
       Host: ssjj.esslh.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|印度 008
-  network: ws
-  password: SSorg
-  port: 8443
-  server: 108.165.152.38
-  skip-cert-verify: true
-  sni: ssjj.esslh.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ssjj.esslh.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 13|印度 007
+- name: 13|美国 037
   network: ws
   password: SSorg
   port: 2087
-  server: 108.165.152.143
+  server: 160.79.105.80
   skip-cert-verify: true
   sni: ssjj.esslh.filegear-sg.me
   type: trojan
@@ -1867,10 +1854,23 @@ proxies:
     path: /?ed=2560&proxyip=ts.hpc.tw
 - alterId: 0
   cipher: auto
-  name: 1,8|_US_->_CA__2
+  name: 1,8|_US__8
   network: ws
   port: 2086
-  server: 104.19.46.39
-  sni: ''
+  server: 104.19.21.230
+  sni: ip14.freegradely.xyz
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- name: 13|斯洛文尼亚 001
+  network: ws
+  password: SSorg
+  port: 2087
+  server: 92.53.190.161
+  skip-cert-verify: true
+  sni: ssjj.esslh.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ssjj.esslh.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
