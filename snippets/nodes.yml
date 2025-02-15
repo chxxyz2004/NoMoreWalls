@@ -1,1094 +1,10 @@
 proxies:
-- client-fingerprint: chrome
-  name: 13|韩国 006
-  network: ws
-  password: Aimer
-  port: 21325
-  server: 220.121.230.236
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 12|11|11,16|日本3|@ripaojiedian
-  network: tcp
-  port: '20800'
-  server: AZHJ.dmak.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-- client-fingerprint: chrome
-  name: 19|🇭🇰 香港4|@ripaojiedian
-  password: 43e5eeacbad3032bfe4c25a2f011b6b7
-  port: 443
-  server: 104.251.227.182
-  skip-cert-verify: true
-  sni: hezijiasuqi.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 13|美国 007
-  network: ws
-  port: 443
-  server: hkwapcdn.899994.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
-  ws-opts:
-    headers:
-      Host: hkwapcdn.899994.xyz
-    path: /index
-- name: 13|韩国 007
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 121.184.10.253
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 001
-  network: ws
-  port: 2052
-  server: 104.16.155.10
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-102-247-92.s1.db-link02.top
-    path: /dabai.in104.25.175.137
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇺🇸 美国2|@ripaojiedian
-  password: X1GBLWQ3U4ULO6XV
-  port: 17005
-  server: 23.185.248.15
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: none
-  name: 12|11|11|11|11|11|11|11|11,15,16|...
-  network: ws
-  port: '8967'
-  server: 31.58.142.221
-  servername: neo.nicme.me
-  tls: true
-  type: vmess
-  uuid: 7d29f1ca-647b-4b4e-b9c8-6beab7133535
-  ws-opts:
-    headers:
-      Host: neo.nicme.me
-    path: /BONRyKGhDE
-- alterId: 0
-  cipher: auto
-  name: 12,14|11,12|美国Fastly全球...
-  network: ws
-  port: 443
-  server: gov.uk
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- name: 13|美国 047
-  network: ws
-  password: Aimer
-  port: 587
-  server: 154.17.227.138
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 64
-  cipher: auto
-  name: '3,12,22|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
-  network: tcp
-  port: 54002
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 13|美国 040
-  network: ws
-  password: Aimer
-  port: 443
-  server: duke.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 002
-  network: ws
-  port: 80
-  server: s1.cn-db.top
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-215-151-174.s1.cn-db.top
-    path: /dabai.in172.64.34.18
-- alterId: 0
-  cipher: auto
-  name: '2,12|🇺🇸_US_美国 #2'
-  network: ws
-  port: 34053
-  server: us-sanfrancisco-02.t3csyun.buzz
-  tls: false
-  type: vmess
-  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 13|美国 070
-  network: ws
-  port: 8080
-  server: 172.67.180.248
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.nahck.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US_->_CA__2
-  network: ws
-  port: 2086
-  server: 104.19.46.39
-  sni: ''
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- name: 13|韩国 023
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 112.185.223.152
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 006
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  ws-opts:
-    headers:
-      Host: chunchuan.kejixiaoqi666.store
-    path: /
-- client-fingerprint: chrome
-  name: 13|波兰 003
-  network: ws
-  password: Aimer
-  port: 443
-  server: 91.149.239.198
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- delay: 993
-  name: 13|美国 048
+- delay: 1014
+  name: 13|爱尔兰 001
   network: tcp
   password: telegram-id-privatevpns
   port: 22222
-  server: 52.28.36.132
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: 13|韩国 021
-  network: ws
-  password: Aimer
-  port: 11300
-  server: 221.163.103.29
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 2,12|🇺🇸_US_美国->🇮🇳_IN_印度
-  network: ws
-  port: 2052
-  server: 104.17.156.224
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: in4.wish.ml
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇺🇸 美国3|@ripaojiedian
-  password: IC4APDY4ATHX890I
-  port: 17004
-  server: 23.185.248.14
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  delay: 1251
-  name: 13|美国 052
-  network: ws
-  port: 443
-  server: www.vpslook.com
-  servername: tremendous-engineering-sense-resist.trycloudflare.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 84dbe45d-75df-48d0-bb89-a40af8429ea7
-  ws-opts:
-    headers:
-      Host: tremendous-engineering-sense-resist.trycloudflare.com
-    path: /vmess-argo?ed=2048
-- name: 19|tg频道:@ripaojiedian
-  port: 4002
-  server: krecs.ftq.ink
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  name: 19|🇯🇵 日本2|@ripaojiedian
-  password: '!!str 3778399737045327872'
-  port: 443
-  server: concise-quail.adder289.quest
-  skip-cert-verify: false
-  sni: concise-quail.adder289.quest
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US__16
-  network: ws
-  port: 2086
-  server: 104.19.45.15
-  sni: ''
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: '2,12|🇺🇸_US_美国->🇮🇳_IN_印度 #1'
-  network: ws
-  port: 2052
-  server: 172.67.164.78
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: in3.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12,14|11,12|美国CloudFla... #2'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- client-fingerprint: chrome
-  name: 13|澳大利亚 001
-  network: ws
-  password: Aimer
-  port: 443
-  server: aliyun.2096.us.kg
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|俄罗斯 001
-  network: ws
-  port: 2082
-  server: 185.174.138.196
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-  ws-opts:
-    headers:
-      Host: yellow-paper-029c.yvonna.workers.dev
-    path: /az05.beyondy.cfd/link?/TM
-- name: 13|美国 006
-  network: ws
-  password: 936c6853-6bbf-4e24-8667-ec5b2fc275b3
-  port: 443
-  server: 172.67.73.163
-  skip-cert-verify: true
-  sni: md1.safecdn.site
-  tfo: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: md1.safecdn.site
-    path: /Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2
-- alterId: 0
-  cipher: auto
-  name: '2,12|🇺🇸_US_美国 #1'
-  network: ws
-  port: 2052
-  server: hk.wish.ml
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: us6_0.wish.ml
-    path: /
-- client-fingerprint: chrome
-  name: 19|🇸🇬 新加坡5|@ripaojiedian
-  password: '!!str 3778399737045327872'
-  port: 443
-  server: flying-tuna.treefrog761.one
-  skip-cert-verify: false
-  sni: flying-tuna.treefrog761.one
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US_->_CN__1
-  network: ws
-  port: 2052
-  server: 104.19.21.240
-  sni: cdn2.freegradely.xyz
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-- name: 13|美国 031
-  network: ws
-  password: 936c6853-6bbf-4e24-8667-ec5b2fc275b3
-  port: 443
-  server: 104.26.15.85
-  sni: md1.safecdn.site
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: md1.safecdn.site
-    path: /Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2
-- name: 13|乌克兰 001
-  network: tcp
-  password: '!!str 3747000103274291200'
-  port: 443
-  server: 85.90.194.160
-  sni: awaited-chicken.adder289.quest
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US_->_CA__3
-  network: ws
-  port: 2086
-  server: 104.19.47.32
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US__6
-  network: ws
-  port: 2086
-  server: 104.20.25.146
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: '3,12,22|🇺🇸_US_美国 #6'
-  network: ws
-  port: 8080
-  server: russia.com
-  tls: false
-  type: vmess
-  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 12|11|11|11|11|11|11|11|11|11|11|...
-  network: tcp
-  port: '443'
-  server: web.51.la
-  servername: web.51.la
-  tls: true
-  type: vmess
-  uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b
-- name: 13|韩国 016
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 211.38.177.17
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 13|美国 032
-  network: ws
-  password: 936c6853-6bbf-4e24-8667-ec5b2fc275b3
-  port: 443
-  server: 104.26.14.85
-  sni: md1.safecdn.site
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: md1.safecdn.site
-    path: /Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2
-- alterId: 64
-  cipher: auto
-  name: 3,12,22|🇨🇳_CN_中国
-  network: tcp
-  port: 54882
-  server: 183.240.235.162
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 13|美国 030
-  network: ws
-  password: Aimer
-  port: 17443
-  server: 38.47.117.85
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 2,12|🇺🇸_US_美国->🇫🇷_FR_法国
-  network: ws
-  port: 2082
-  server: 104.21.8.157
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12,19,20|16|日本3|@ripaojiedian
-  network: tcp
-  port: '20808'
-  server: AZHJ001.dmak.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US__10
-  network: ws
-  port: 2052
-  server: 104.19.46.123
-  sni: cdn2.freegradely.xyz
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 35.77.85.254
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,3,8,12,22|_US__9
-  network: ws
-  port: 2086
-  server: 104.18.57.111
-  sni: ip11.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: '3,12,22|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 13|美国 055
-  network: ws
-  port: 80
-  server: 104.18.15.150
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
-  ws-opts:
-    headers:
-      Host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 064
-  network: ws
-  port: 80
-  server: 104.21.69.44
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt4.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|美国 054
-  network: ws
-  port: 80
-  server: 104.18.154.42
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
-  ws-opts:
-    headers:
-      Host: us3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 001
-  network: ws
-  port: 80
-  server: cloudflare.182682.xyz
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
-  ws-opts:
-    headers:
-      Host: kr.cfyyds.filegear-sg.me
-    path: /rongseven?ed=2048
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 57.180.31.56
-  tfo: false
-  type: ss
-- name: 13|美国 045
-  network: ws
-  password: Aimer
-  port: 20001
-  server: 185.183.84.96
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: chacha20-ietf-poly1305
-  name: 1|_US__11
-  password: nEyOTWmtPG5tdgZqMQEq4R
-  port: 29814
-  server: 51.141.73.244
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇸🇬 新加坡2|@ripaojiedian
-  password: YJCJ0R4WY1NWFU2Y
-  port: 16007
-  server: 154.196.244.17
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|11|11,16|日本|@ripaojiedian
-  network: tcp
-  port: '20803'
-  server: AZHJ.dmak.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-- alterId: 0
-  cipher: auto
-  name: '2,12|🇷🇺_RU_俄罗斯联邦 #1'
-  network: ws
-  port: 12910
-  server: 45.136.245.240
-  tls: true
-  type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 3,12,22|🇺🇸_US_美国->🇧🇷_BR_巴西
-  network: ws
-  port: 2052
-  server: 104.18.37.248
-  tls: false
-  type: vmess
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  ws-opts: {}
-- client-fingerprint: chrome
-  name: 13|韩国 002
-  network: ws
-  password: Aimer
-  port: 12542
-  server: 125.138.28.68
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US__13
-  network: ws
-  port: 2086
-  server: 104.19.46.233
-  sni: ''
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-- name: 13|韩国 017
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 112.169.242.150
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|美国 065
-  network: ws
-  port: 80
-  server: 104.20.231.30
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 068
-  network: ws
-  port: 80
-  server: 104.18.15.149
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
-  ws-opts:
-    headers:
-      Host: tr3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: hkyydsrongseven
-  name: 13|巴西 001
-  network: grpc
-  port: 587
-  server: cf.bycf.us.kg
-  servername: cf.bycf.us.kg
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 004
-  network: ws
-  port: 8880
-  server: s2.cn-db.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-165-40-54.s2.cn-db.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 008
-  network: ws
-  port: 443
-  server: zmkkyc.whmvmkwuey.store
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a2dd2ce9-28de-4af0-b0bb-86add2badff0
-  ws-opts:
-    headers:
-      Host: zmkkyc.whmvmkwuey.store
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '2,12|🇺🇸_US_美国 #3'
-  network: ws
-  port: 8080
-  server: 148.135.40.190
-  tls: false
-  type: vmess
-  uuid: f6c4905b-0308-4164-b1ad-4157531a8378
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 13|美国 004
-  network: ws
-  port: 8443
-  server: uswuxian.pai50288.uk
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
-  ws-opts:
-    headers:
-      Host: uswuxian.pai50288.uk
-    path: /
-- name: 13|美国 044
-  network: ws
-  password: Aimer
-  port: 15572
-  server: 154.17.239.70
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|巴西 005
-  network: ws
-  port: 80
-  server: 188.114.96.113
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 2,12|🇺🇸_US_美国
-  network: ws
-  port: 2052
-  server: 104.16.38.71
-  tls: false
-  type: vmess
-  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
-  ws-opts:
-    headers:
-      Host: us6_0.wish.ml
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 058
-  network: ws
-  port: 80
-  server: 104.22.51.162
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US__14
-  network: ws
-  port: 2086
-  server: 104.19.46.59
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: '12,14|11,12|美国CloudFla... #3'
-  network: ws
-  port: 8880
-  server: server32.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  ws-opts:
-    headers:
-      Host: server32.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|美国 003
-  network: ws
-  port: 2086
-  server: s2.db-link02.top
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f518cff0-ee41-3cde-a453-9f3fbccd7ff8
-  ws-opts:
-    headers:
-      Host: 100-57-35-141.s2.db-link02.top
-    path: /dabai.in104.20.130.8
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US__1
-  network: ws
-  port: 2086
-  server: 104.19.38.62
-  sni: ip004.dtku47.xyz
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-- client-fingerprint: chrome
-  name: 13|摩尔多瓦 002
-  network: ws
-  password: Aimer
-  port: 4433
-  server: 46.3.99.95
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 1|_CN_
-  password: hGkQ6915tD
-  port: 15082
-  server: 59.56.77.178
-  type: ss
-- client-fingerprint: chrome
-  name: 19|🇰🇷 韩国|@ripaojiedian
-  password: '!!str 3778399737045327872'
-  port: 443
-  server: coherent-drum.adder289.quest
-  skip-cert-verify: false
-  sni: coherent-drum.adder289.quest
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US__15
-  network: ws
-  port: 2086
-  server: 104.19.46.27
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 12|11|11|11|11|11|11|11|11,16|日本3...
-  network: tcp
-  port: '33184'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b2d1e704-59f5-48ec-ba97-9a5e2005b37b
-- name: 13|波兰 002
-  network: ws
-  password: Aimer
-  port: 443
-  server: 91.149.239.70
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|美国 005
-  network: ws
-  port: 2052
-  server: 172.66.45.40
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: fcc685c0-e718-11ef-b933-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: eu-2.hihu.net
-    path: /ek147r26/
-- name: 13|荷兰 005
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 45.140.88.118
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: '3,12,22|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
-  network: ws
-  port: 16928
-  server: 120.232.240.56
-  tls: false
-  type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US__8
-  network: ws
-  port: 2086
-  server: 104.19.21.230
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US__12
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  sni: ''
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-- alterId: 0
-  cipher: auto
-  name: '12,14|11,12|美国CloudFla... #1'
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|德国 002
-  network: tcp
-  port: 443
-  server: 141.94.237.82
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: a79a4bc8-6980-4fef-8507-01f4bb5e81af
-- delay: 946
-  name: 13|美国 050
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 13.39.121.90
+  server: 34.250.0.214
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
@@ -1108,130 +24,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 003
-  network: ws
-  port: 8080
-  server: s1.db-link01.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-  ws-opts:
-    headers:
-      Host: 100-79-28-26.s1.db-link01.top
-    path: /
-- delay: 1014
-  name: 13|爱尔兰 001
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 34.250.0.214
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 13|美国 002
+  name: 13|美国 066
   network: ws
   port: 80
-  server: cf.0sm.com
+  server: 104.18.15.148
   skip-cert-verify: true
-  tfo: true
   tls: false
   type: vmess
-  udp: true
-  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
   ws-opts:
     headers:
-      Host: us.cfyyds.filegear-sg.me
-    path: /rongseven?ed=2048
-- name: 13|韩国 020
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 14.37.56.164
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 64
-  cipher: auto
-  name: 12|11|15|🇺🇸 美国2|@ripaojiedian
-  network: tcp
-  port: 45402
-  server: 120.232.153.123
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 13|美国 023
-  network: ws
-  password: Aimer
-  port: 443
-  server: 154.26.179.89
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇭🇰 香港2|@ripaojiedian
-  password: PT2N60DCUH6VCQPC
-  port: 15004
-  server: 156.245.190.13
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,2,8,12,12|_US_->_SG_
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  sni: ''
-  type: vmess
-  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
-- alterId: 0
-  cipher: auto
-  name: 12,14|11,12|美国CloudFla...
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
+      Host: ca3.889611.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '3,12,22|🇺🇸_US_美国 #5'
-  network: ws
-  port: 2086
-  server: 104.19.32.46
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 12|11|11,16|香港|@ripaojiedian
-  network: tcp
-  port: '20776'
-  server: AZHJ001.dmak.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+- cipher: chacha20-ietf-poly1305
+  name: 1|_US_->_ES_
+  password: 2062a5ca-a34e-47bf-9810-db91185f07fc
+  port: 59019
+  server: fuck5.mmmmmmmmmm.cfd
+  type: ss
 - alterId: 0
   cipher: auto
   name: 3,12,22|🇺🇸_US_美国->🇨🇳_CN_中国
@@ -1242,11 +52,49 @@ proxies:
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts: {}
-- name: 13|美国 082
+- alterId: 0
+  cipher: auto
+  name: 13|俄罗斯 001
+  network: ws
+  port: 2082
+  server: 185.174.138.196
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM
+- alterId: 0
+  cipher: auto
+  name: '2,12|🇺🇸_US_美国 #3'
+  network: ws
+  port: 8080
+  server: 148.135.40.190
+  tls: false
+  type: vmess
+  uuid: f6c4905b-0308-4164-b1ad-4157531a8378
+  ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 1|_US__11
+  password: nEyOTWmtPG5tdgZqMQEq4R
+  port: 29814
+  server: 51.141.73.244
+  type: ss
+- cipher: aes-256-cfb
+  name: 1|_CN_
+  password: hGkQ6915tD
+  port: 15082
+  server: 59.56.77.178
+  type: ss
+- name: 13|美国 086
   network: ws
   password: Aimer
-  port: 8443
-  server: 154.26.176.94
+  port: 443
+  server: ignacio.ns.cloudflare.com
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -1255,6 +103,75 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|美国 116
+  network: ws
+  port: 443
+  server: plex.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
+  ws-opts:
+    headers:
+      Host: telegram-isvvpn.ir
+    path: /racevpn?telegram-
+- client-fingerprint: chrome
+  name: 13|韩国 005
+  network: ws
+  password: Aimer
+  port: 11288
+  server: 222.114.11.234
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 13|韩国 022
+  network: ws
+  password: Aimer
+  port: 33022
+  server: 222.103.130.244
+  skip-cert-verify: true
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  delay: 1251
+  name: 13|美国 052
+  network: ws
+  port: 443
+  server: www.vpslook.com
+  servername: tremendous-engineering-sense-resist.trycloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 84dbe45d-75df-48d0-bb89-a40af8429ea7
+  ws-opts:
+    headers:
+      Host: tremendous-engineering-sense-resist.trycloudflare.com
+    path: /vmess-argo?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 12,19,20|11,16|日本3|@ripaojiedian
+  network: tcp
+  port: '20808'
+  server: AZHJ001.dmak.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
 - alterId: 0
   cipher: auto
   name: 2,12|🇨🇳_CN_中国->🇺🇸_US_美国
@@ -1267,316 +184,14 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 13|日本 002
-  network: ws
-  port: 80
-  server: 47.245.26.167
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|11|11,16|新加坡3|@ripaojiedian
+  name: 12|11|11|11|11|11|11|11|11|11|11|...
   network: tcp
-  port: '10564'
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ead8fb73-ff42-4fce-af33-5991e72006b7
-- cipher: chacha20-ietf-poly1305
-  name: 1|_US_->_ES_
-  password: 2062a5ca-a34e-47bf-9810-db91185f07fc
-  port: 59019
-  server: fuck5.mmmmmmmmmm.cfd
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US__4
-  network: ws
-  port: 2086
-  server: 104.19.46.36
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 12,14|11,12|广东省移动 7
-  network: ws
-  port: '20401'
-  server: data-us-v1.shwjfkw.cn
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-  ws-opts:
-    headers:
-      Host: data-us-v1.shwjfkw.cn
-    path: /debian
-- alterId: 0
-  cipher: none
-  name: 12,19,20|16|日本|@ripaojiedian
-  network: tcp
-  port: '550'
-  server: 20.78.127.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551
-- client-fingerprint: chrome
-  name: 13|荷兰 006
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 178.159.43.246
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 21|SCP2
-  network: ws
   port: '443'
-  server: www.smcacre.gov
-  servername: www.smcacre.gov
+  server: web.51.la
+  servername: web.51.la
   tls: true
   type: vmess
-  uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b
-  ws-opts:
-    headers:
-      Host: lajihuawei.com
-    path: /3cc8e2d2
-- client-fingerprint: chrome
-  name: 19|🇰🇷 韩国2|@ripaojiedian
-  password: '!!str 3778399737045327872'
-  port: 443
-  server: patient-trout.adder289.quest
-  skip-cert-verify: false
-  sni: patient-trout.adder289.quest
-  type: trojan
-- client-fingerprint: chrome
-  name: 13|美国 028
-  network: ws
-  password: Aimer
-  port: 666
-  server: 91.217.139.139
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 13|美国 053
-  network: ws
-  port: 80
-  server: 104.18.15.147
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
-  ws-opts:
-    headers:
-      Host: us3.889611.com
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇸🇬 新加坡|@ripaojiedian
-  password: XO1SG6ZYE5JP7FW0
-  port: 16012
-  server: 154.196.244.22
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US_->_CN__2
-  network: ws
-  port: 8080
-  server: 104.19.47.126
-  sni: ''
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-- cipher: aes-256-cfb
-  name: 1|_US__5
-  password: amazonskr05
-  port: 443
-  server: 3.39.227.28
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,3,8,12,22|_US__3
-  network: ws
-  port: 2086
-  server: 104.19.57.4
-  sni: ip11.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.125.187.128
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇸🇬 新加坡4|@ripaojiedian
-  password: L4JOYUZXFWFX9E0N
-  port: 16005
-  server: 154.196.244.15
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 12|11|11,16|香港2|@ripaojiedian
-  network: tcp
-  port: '20965'
-  server: AZHJ001.dmak.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-- client-fingerprint: chrome
-  name: 13|韩国 003
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 121.179.37.140
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- cipher: aes-256-cfb
-  name: 1|_SG_
-  password: amazonskr05
-  port: 443
-  server: 54.179.87.28
-  type: ss
-- client-fingerprint: chrome
-  name: 13|韩国 004
-  network: ws
-  password: Aimer
-  port: 10037
-  server: 125.128.229.252
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|澳大利亚 002
-  network: ws
-  password: Aimer
-  port: 443
-  server: 43.156.253.94
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US__2
-  network: ws
-  port: 2086
-  server: 104.19.47.122
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- name: 13|美国 026
-  network: ws
-  password: Aimer
-  port: 50005
-  server: 185.183.84.165
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers:
-      Host:
-      - moi.ir
-    method: GET
-    path:
-    - /
-  name: 13|美国 009
-  network: tcp
-  port: 8881
-  server: 68.183.61.232
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
-- alterId: 0
-  cipher: auto
-  name: 12,19,20|16|香港|@ripaojiedian
-  network: tcp
-  port: '21718'
-  server: AZHJ.dmak.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
-- alterId: 0
-  cipher: auto
-  name: 13|美国 060
-  network: ws
-  port: 8080
-  server: 104.21.31.244
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.nahck.site
-    path: /
-- client-fingerprint: chrome
-  name: 13|韩国 009
-  network: ws
-  password: Aimer
-  port: 10022
-  server: 125.132.46.2
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
+  uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b
 - alterId: 0
   cipher: auto
   name: 13|美国 063
@@ -1593,18 +208,48 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 005
+  name: 13|加拿大 001
   network: ws
-  port: 8080
-  server: s5.db-link02.top
-  skip-cert-verify: false
+  port: 2052
+  server: 104.16.155.10
+  skip-cert-verify: true
+  tfo: false
   tls: false
   type: vmess
+  udp: true
   uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
   ws-opts:
     headers:
-      Host: 100-149-191-2.s5.db-link02.top
+      Host: 100-102-247-92.s1.db-link02.top
+    path: /dabai.in104.25.175.137
+- alterId: 0
+  cipher: auto
+  name: 13|美国 070
+  network: ws
+  port: 8080
+  server: 172.67.180.248
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.nahck.site
     path: /
+- client-fingerprint: chrome
+  name: 13|韩国 008
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 118.45.241.209
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 19|🇭🇰 香港5|@ripaojiedian
@@ -1615,18 +260,339 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|美国 066
+  name: 13|美国 002
   network: ws
   port: 80
-  server: 104.18.15.148
+  server: cf.0sm.com
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: us.cfyyds.filegear-sg.me
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|美国 076
+  network: ws
+  port: 443
+  server: www.visa.com.tw
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 301fad67-1288-47a9-b3ca-22b823e4e789
+  ws-opts:
+    headers:
+      Host: s2.2go.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,12,22|🇺🇸_US_美国 #4'
+  network: ws
+  port: 2082
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US_->_CA__3
+  network: ws
+  port: 2086
+  server: 104.19.47.32
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 2,12|🇺🇸_US_美国
+  network: ws
+  port: 2052
+  server: 104.16.38.71
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: us6_0.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|11|11|11,16|新加坡3|@ripaojiedian
+  network: tcp
+  port: '10564'
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ead8fb73-ff42-4fce-af33-5991e72006b7
+- client-fingerprint: chrome
+  name: 19|🇰🇷 韩国|@ripaojiedian
+  password: '!!str 3778399737045327872'
+  port: 443
+  server: coherent-drum.adder289.quest
+  skip-cert-verify: false
+  sni: coherent-drum.adder289.quest
+  type: trojan
+- name: 13|美国 062
+  network: ws
+  password: Aimer
+  port: 15392
+  server: 192.227.231.56
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|美国 055
+  network: ws
+  port: 80
+  server: 104.18.15.150
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
   ws-opts:
     headers:
-      Host: ca3.889611.com
+      Host: er3.889611.com
     path: /
+- alterId: 0
+  cipher: none
+  name: 12|11|11|11|11|11|11|11|11|11,15,...
+  network: ws
+  port: '8967'
+  server: 31.58.142.221
+  servername: neo.nicme.me
+  tls: true
+  type: vmess
+  uuid: 7d29f1ca-647b-4b4e-b9c8-6beab7133535
+  ws-opts:
+    headers:
+      Host: neo.nicme.me
+    path: /BONRyKGhDE
+- cipher: aes-256-gcm
+  name: 1|_US__7
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 38.114.114.207
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1,2,8,12,12|_US_->_SG_
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  sni: ''
+  type: vmess
+  uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+- cipher: aes-256-cfb
+  name: 1|_FR_->_RU_
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 163.172.64.22
+  type: ss
+- client-fingerprint: chrome
+  name: 13|韩国 002
+  network: ws
+  password: Aimer
+  port: 12542
+  server: 125.138.28.68
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 64
+  cipher: auto
+  name: 12|11|11|15|🇺🇸 美国2|@ripaojiedian
+  network: tcp
+  port: 45402
+  server: 120.232.153.123
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇸🇬 新加坡3|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|美国 065
+  network: ws
+  port: 80
+  server: 104.20.231.30
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 008
+  network: ws
+  port: 443
+  server: zmkkyc.whmvmkwuey.store
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a2dd2ce9-28de-4af0-b0bb-86add2badff0
+  ws-opts:
+    headers:
+      Host: zmkkyc.whmvmkwuey.store
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇰🇷 韩国特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 35.77.85.254
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: none
+  name: 12,19,20|11,16|日本|@ripaojiedian
+  network: tcp
+  port: '550'
+  server: 20.78.127.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551
+- client-fingerprint: chrome
+  name: 13|美国 023
+  network: ws
+  password: Aimer
+  port: 443
+  server: 154.26.179.89
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 1,3,8,12,22|_US__3
+  network: ws
+  port: 2086
+  server: 104.19.57.4
+  sni: ip11.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 13|美国 061
+  network: ws
+  port: 80
+  server: 104.16.77.74
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /?ed=2048
+- name: 13|韩国 020
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 14.37.56.164
+  skip-cert-verify: true
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|韩国 009
+  network: ws
+  password: Aimer
+  port: 10022
+  server: 125.132.46.2
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 13|美国 082
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 154.26.176.94
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇺🇸 美国2|@ripaojiedian
+  password: X1GBLWQ3U4ULO6XV
+  port: 17005
+  server: 23.185.248.15
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 21|SCP2
+  network: ws
+  port: '443'
+  server: www.smcacre.gov
+  servername: www.smcacre.gov
+  tls: true
+  type: vmess
+  uuid: 3cc8e2d2-e4a4-4d87-c16c-a8fc70296a7b
+  ws-opts:
+    headers:
+      Host: lajihuawei.com
+    path: /3cc8e2d2
+- name: 13|美国 006
+  network: ws
+  password: 936c6853-6bbf-4e24-8667-ec5b2fc275b3
+  port: 443
+  server: 172.67.73.163
+  skip-cert-verify: true
+  sni: md1.safecdn.site
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: md1.safecdn.site
+    path: /Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2
 - alterId: 0
   cipher: auto
   name: 13|俄罗斯 005
@@ -1643,22 +609,367 @@ proxies:
     headers:
       Host: yellow-paper-029c.yvonna.workers.dev
     path: /az05.beyondy.cfd/link?/TM
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇸🇬 新加坡4|@ripaojiedian
+  password: L4JOYUZXFWFX9E0N
+  port: 16005
+  server: 154.196.244.15
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇭🇰 香港3|@ripaojiedian
+  password: AN3FTAV65XV9BQKG
+  port: 15009
+  server: 156.245.190.18
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 2,12|🇩🇪_DE_德国
+  name: 1,8,12|_US__2
   network: ws
-  port: 45103
-  server: de-frankfurt-oracle-b26cf5.ip1.shop
-  tls: false
+  port: 2086
+  server: 104.19.47.122
+  sni: ip14.freegradely.xyz
   type: vmess
-  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
-  ws-opts: {}
-- client-fingerprint: chrome
-  name: 13|美国 081
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- name: 13|韩国 016
   network: ws
   password: Aimer
+  port: 50000
+  server: 211.38.177.17
+  skip-cert-verify: true
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|美国 003
+  network: ws
+  port: 2086
+  server: s2.db-link02.top
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f518cff0-ee41-3cde-a453-9f3fbccd7ff8
+  ws-opts:
+    headers:
+      Host: 100-57-35-141.s2.db-link02.top
+    path: /dabai.in104.20.130.8
+- alterId: 0
+  cipher: auto
+  name: 13|美国 064
+  network: ws
+  port: 80
+  server: 104.21.69.44
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt4.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 006
+  network: ws
+  port: 80
+  server: 104.16.155.10
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e6543319-0574-42ac-b778-1c4325d626f5
+  ws-opts:
+    headers:
+      Host: chunchuan.kejixiaoqi666.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|德国 002
+  network: tcp
   port: 443
-  server: 154.26.177.9
+  server: 141.94.237.82
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: a79a4bc8-6980-4fef-8507-01f4bb5e81af
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US_->_CA__1
+  network: ws
+  port: 2086
+  server: 104.19.47.79
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- client-fingerprint: chrome
+  name: 19|🇰🇷 韩国2|@ripaojiedian
+  password: '!!str 3778399737045327872'
+  port: 443
+  server: patient-trout.adder289.quest
+  skip-cert-verify: false
+  sni: patient-trout.adder289.quest
+  type: trojan
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇰🇷 韩国3|@ripaojiedian
+  password: qwerREWQ@@
+  port: 28902
+  server: 218.38.103.150
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US_->_CA__4
+  network: ws
+  port: 2086
+  server: 104.19.45.47
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 12,14|11,12|美国Fastly全球...
+  network: ws
+  port: 443
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
+- alterId: 0
+  cipher: auto
+  name: '12,14|11,12|美国CloudFla... #3'
+  network: ws
+  port: 8880
+  server: server32.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  ws-opts:
+    headers:
+      Host: server32.beheshtbaneh.com
+    path: /
+- delay: 993
+  name: 13|美国 048
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 52.28.36.132
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 13|美国 058
+  network: ws
+  port: 80
+  server: 104.22.51.162
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.125.187.128
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '2,12|🇷🇺_RU_俄罗斯联邦 #1'
+  network: ws
+  port: 12910
+  server: 45.136.245.240
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12,14|11,12|广东省移动 7
+  network: ws
+  port: '20401'
+  server: data-us-v1.shwjfkw.cn
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+  ws-opts:
+    headers:
+      Host: data-us-v1.shwjfkw.cn
+    path: /debian
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US__8
+  network: ws
+  port: 2086
+  server: 104.19.21.230
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- client-fingerprint: chrome
+  name: 13|美国 030
+  network: ws
+  password: Aimer
+  port: 17443
+  server: 38.47.117.85
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 19|🇯🇵 日本2|@ripaojiedian
+  password: '!!str 3778399737045327872'
+  port: 443
+  server: concise-quail.adder289.quest
+  skip-cert-verify: false
+  sni: concise-quail.adder289.quest
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 2,12|🇺🇸_US_美国->🇮🇳_IN_印度
+  network: ws
+  port: 2052
+  server: 104.17.156.224
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: in4.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,12,22|🇺🇸_US_美国 #5'
+  network: ws
+  port: 2086
+  server: 104.19.32.46
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 13|美国 068
+  network: ws
+  port: 80
+  server: 104.18.15.149
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+  ws-opts:
+    headers:
+      Host: tr3.889611.com
+    path: /
+- client-fingerprint: chrome
+  name: 13|韩国 006
+  network: ws
+  password: Aimer
+  port: 21325
+  server: 220.121.230.236
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 19|tg频道:@ripaojiedian
+  port: 4002
+  server: krecs.ftq.ink
+  tls: true
+  type: http
+- alterId: 0
+  cipher: auto
+  name: 12|11|11|11|11|11|11|11|11|11,16|...
+  network: tcp
+  port: '33184'
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b2d1e704-59f5-48ec-ba97-9a5e2005b37b
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US_->_CN__2
+  network: ws
+  port: 8080
+  server: 104.19.47.126
+  sni: ''
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+- name: 13|韩国 023
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 112.185.223.152
+  skip-cert-verify: true
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|巴西 006
+  network: ws
+  port: 80
+  server: 188.114.96.11
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 005
+  network: ws
+  port: 8080
+  server: s5.db-link02.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-149-191-2.s5.db-link02.top
+    path: /
+- name: 13|韩国 007
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 121.184.10.253
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -1669,33 +980,190 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 12,12,12,14,14,14|11,12|印度  2
+  name: 13|美国 067
   network: ws
-  port: 443
-  server: 202.78.162.5
-  servername: ''
-  tls: true
+  port: 8880
+  server: 104.21.1.28
+  skip-cert-verify: true
+  tls: false
   type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
   ws-opts:
     headers:
-      Host: irsoft.sytes.net
-    path: /@forwardv2ray
+      Host: us-ccs.yuji2022.eu.org
+    path: /XSjeg73o6ZdsheahCb5JG
 - alterId: 0
   cipher: auto
-  name: '3,12,22|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  name: 13|美国 007
+  network: ws
+  port: 443
+  server: hkwapcdn.899994.xyz
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a0605527-28e4-449c-80ee-5642cc16a8af
+  ws-opts:
+    headers:
+      Host: hkwapcdn.899994.xyz
+    path: /index
+- alterId: 0
+  cipher: auto
+  name: 2,12|🇷🇺_RU_俄罗斯联邦
+  network: tcp
+  port: 35972
+  server: 45.147.200.170
+  tls: false
+  type: vmess
+  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 19|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 57.180.31.56
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US__16
   network: ws
   port: 2086
-  server: 172.64.175.213
+  server: 104.19.45.15
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 2,12|🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,12,22|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  network: ws
+  port: 2082
+  server: 172.67.130.140
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts: {}
+- client-fingerprint: chrome
+  name: 13|荷兰 006
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 178.159.43.246
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 13|韩国 017
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 112.169.242.150
+  skip-cert-verify: true
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '2,12|🇺🇸_US_美国->🇮🇳_IN_印度 #1'
+  network: ws
+  port: 2052
+  server: 172.67.164.78
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: in3.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 3,12,22|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 2086
+  server: 104.19.47.65
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- name: 13|韩国 010
+- alterId: 0
+  cipher: auto
+  name: '2,12|🇺🇸_US_美国 #2'
+  network: ws
+  port: 34053
+  server: us-sanfrancisco-02.t3csyun.buzz
+  tls: false
+  type: vmess
+  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 004
+  network: ws
+  port: 8880
+  server: s2.cn-db.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-165-40-54.s2.cn-db.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12|11|11|11,16|香港2|@ripaojiedian
+  network: tcp
+  port: '20965'
+  server: AZHJ001.dmak.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+- delay: 946
+  name: 13|美国 050
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.39.121.90
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US__12
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  sni: ''
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+- name: 13|美国 020
   network: ws
   password: Aimer
-  port: 12344
-  server: 222.108.40.235
+  port: 443
+  server: 141.98.196.223
   skip-cert-verify: true
   sni: agepw.ambercc.filegear-sg.me
   type: trojan
@@ -1717,27 +1185,58 @@ proxies:
     headers:
       Host: agepw.ambercc.filegear-sg.me
     path: /?ed=2560
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇰🇷 韩国3|@ripaojiedian
-  password: qwerREWQ@@
-  port: 28902
-  server: 218.38.103.150
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇺🇸 美国|@ripaojiedian
-  password: Z7ZSQR3OI9JVRA6N
-  port: 17001
-  server: 23.185.248.11
-  tfo: false
-  type: ss
-- name: 13|美国 020
+- alterId: 0
+  cipher: auto
+  name: 12,12,12,14,14,14|11,12|印度  2
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
+  ws-opts:
+    headers:
+      Host: irsoft.sytes.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US_->_CN__1
+  network: ws
+  port: 2052
+  server: 104.19.21.240
+  sni: cdn2.freegradely.xyz
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+- client-fingerprint: chrome
+  name: 13|澳大利亚 001
   network: ws
   password: Aimer
   port: 443
-  server: 141.98.196.223
+  server: aliyun.2096.us.kg
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 2,12|🇩🇪_DE_德国
+  network: ws
+  port: 45103
+  server: de-frankfurt-oracle-b26cf5.ip1.shop
+  tls: false
+  type: vmess
+  uuid: 6d3404ef-27c6-48de-a83a-8ac6488760b4
+  ws-opts: {}
+- name: 13|美国 045
+  network: ws
+  password: Aimer
+  port: 20001
+  server: 185.183.84.96
   skip-cert-verify: true
   sni: agepw.ambercc.filegear-sg.me
   type: trojan
@@ -1748,17 +1247,505 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
+  name: 1,8,12|_US__4
+  network: ws
+  port: 2086
+  server: 104.19.46.36
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- name: 13|美国 040
+  network: ws
+  password: Aimer
+  port: 443
+  server: duke.ns.cloudflare.com
+  skip-cert-verify: true
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 12,19,20|11,16|香港|@ripaojiedian
+  network: tcp
+  port: '21718'
+  server: AZHJ.dmak.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US__14
+  network: ws
+  port: 2086
+  server: 104.19.46.59
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 64
+  cipher: auto
+  name: 3,12,22|🇨🇳_CN_中国
+  network: tcp
+  port: 54882
+  server: 183.240.235.162
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: hkyydsrongseven
+  name: 13|巴西 001
+  network: grpc
+  port: 587
+  server: cf.bycf.us.kg
+  servername: cf.bycf.us.kg
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+- client-fingerprint: chrome
+  name: 13|韩国 003
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 121.179.37.140
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 13|美国 044
+  network: ws
+  password: Aimer
+  port: 15572
+  server: 154.17.239.70
+  skip-cert-verify: true
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: '3,12,22|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
+  network: ws
+  port: 16928
+  server: 120.232.240.56
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '3,12,22|🇺🇸_US_美国 #6'
+  network: ws
+  port: 8080
+  server: russia.com
+  tls: false
+  type: vmess
+  uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
+  ws-opts: {}
+- name: 13|美国 047
+  network: ws
+  password: Aimer
+  port: 587
+  server: 154.17.227.138
+  skip-cert-verify: true
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 13|摩尔多瓦 002
+  network: ws
+  password: Aimer
+  port: 4433
+  server: 46.3.99.95
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 13|乌克兰 001
+  network: tcp
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: 85.90.194.160
+  sni: awaited-chicken.adder289.quest
+  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - moi.ir
+    method: GET
+    path:
+    - /
+  name: 13|美国 009
+  network: tcp
+  port: 8881
+  server: 68.183.61.232
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: db5afae4-ac23-41a6-8378-f307a9a47436
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 003
+  network: ws
+  port: 8080
+  server: s1.db-link01.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-79-28-26.s1.db-link01.top
+    path: /
+- cipher: aes-256-cfb
+  name: 1|_US__5
+  password: amazonskr05
+  port: 443
+  server: 3.39.227.28
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|美国 005
+  network: ws
+  port: 2052
+  server: 172.66.45.40
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fcc685c0-e718-11ef-b933-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: eu-2.hihu.net
+    path: /ek147r26/
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇸🇬 新加坡|@ripaojiedian
+  password: XO1SG6ZYE5JP7FW0
+  port: 16012
+  server: 154.196.244.22
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 13|美国 001
+  network: ws
+  port: 80
+  server: cloudflare.182682.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9a3206d-278c-4614-b352-eef632d1c8d5
+  ws-opts:
+    headers:
+      Host: kr.cfyyds.filegear-sg.me
+    path: /rongseven?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 12|11|11|11,16|香港|@ripaojiedian
+  network: tcp
+  port: '20776'
+  server: AZHJ001.dmak.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+- alterId: 0
+  cipher: auto
+  name: 12|11|11|11,16|日本3|@ripaojiedian
+  network: tcp
+  port: '20800'
+  server: AZHJ.dmak.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+- alterId: 0
+  cipher: auto
+  name: 13|美国 053
+  network: ws
+  port: 80
+  server: 104.18.15.147
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+  ws-opts:
+    headers:
+      Host: us3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US__1
+  network: ws
+  port: 2086
+  server: 104.19.38.62
+  sni: ip004.dtku47.xyz
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+- alterId: 0
+  cipher: auto
+  name: 12|11|11|11,16|日本|@ripaojiedian
+  network: tcp
+  port: '20803'
+  server: AZHJ.dmak.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+- name: 13|波兰 002
+  network: ws
+  password: Aimer
+  port: 443
+  server: 91.149.239.70
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇺🇸 美国|@ripaojiedian
+  password: Z7ZSQR3OI9JVRA6N
+  port: 17001
+  server: 23.185.248.11
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 12,12|11|15|🇸🇬 新加坡5|@ripaojiedian
+  network: tcp
+  port: 443
+  server: flying-tuna.treefrog761.one
+  tls: false
+  type: vmess
+  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+- alterId: 0
+  cipher: auto
+  name: '12,14|11,12|美国CloudFla... #2'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- client-fingerprint: chrome
+  name: 13|波兰 003
+  network: ws
+  password: Aimer
+  port: 443
+  server: 91.149.239.198
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|美国 054
+  network: ws
+  port: 80
+  server: 104.18.154.42
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+  ws-opts:
+    headers:
+      Host: us3.visaapp.top
+    path: /
+- name: 13|美国 021
+  network: ws
+  password: Aimer
+  port: 8080
+  server: 206.237.13.161
+  skip-cert-verify: true
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇭🇰 香港2|@ripaojiedian
+  password: PT2N60DCUH6VCQPC
+  port: 15004
+  server: 156.245.190.13
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US__15
+  network: ws
+  port: 2086
+  server: 104.19.46.27
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: '3,12,22|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 2086
+  server: 172.64.175.213
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
+- client-fingerprint: chrome
+  name: 19|🇸🇬 新加坡5|@ripaojiedian
+  password: '!!str 3778399737045327872'
+  port: 443
+  server: flying-tuna.treefrog761.one
+  skip-cert-verify: false
+  sni: flying-tuna.treefrog761.one
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '2,12|🇺🇸_US_美国 #1'
+  network: ws
+  port: 2052
+  server: hk.wish.ml
+  tls: false
+  type: vmess
+  uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8
+  ws-opts:
+    headers:
+      Host: us6_0.wish.ml
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|美国 004
+  network: ws
+  port: 8443
+  server: uswuxian.pai50288.uk
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d
+  ws-opts:
+    headers:
+      Host: uswuxian.pai50288.uk
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇸🇬 新加坡2|@ripaojiedian
+  password: YJCJ0R4WY1NWFU2Y
+  port: 16007
+  server: 154.196.244.17
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US__6
+  network: ws
+  port: 2086
+  server: 104.20.25.146
+  sni: ip14.freegradely.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: '3,12,22|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
+  network: ws
+  port: 2052
+  server: p3.v2raybrasil.cloud
+  tls: false
+  type: vmess
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  ws-opts: {}
+- name: 13|美国 031
+  network: ws
+  password: 936c6853-6bbf-4e24-8667-ec5b2fc275b3
+  port: 443
+  server: 104.26.15.85
+  sni: md1.safecdn.site
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: md1.safecdn.site
+    path: /Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 19|🇺🇸 美国3|@ripaojiedian
+  password: IC4APDY4ATHX890I
+  port: 17004
+  server: 23.185.248.14
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: 13|韩国 001
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 221.149.132.232
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
   name: 1,8,12|_US_->_NL_
   network: ws
   port: 2086
   server: 172.64.198.249
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- name: 13|美国 062
+- client-fingerprint: chrome
+  name: 13|美国 028
   network: ws
   password: Aimer
-  port: 15392
-  server: 192.227.231.56
+  port: 666
+  server: 91.217.139.139
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -1783,20 +1770,24 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,12,22|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
+  name: '12,14|11,12|美国CloudFla... #1'
   network: ws
-  port: 2052
-  server: p3.v2raybrasil.cloud
+  port: 8880
+  server: server31.beheshtbaneh.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
-  ws-opts: {}
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
 - client-fingerprint: chrome
-  name: 13|韩国 008
+  name: 13|韩国 004
   network: ws
   password: Aimer
-  port: 50000
-  server: 118.45.241.209
+  port: 10037
+  server: 125.128.229.252
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -1805,72 +1796,82 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 19|🇭🇰 香港3|@ripaojiedian
-  password: AN3FTAV65XV9BQKG
-  port: 15009
-  server: 156.245.190.18
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 12|15|🇸🇬 新加坡5|@ripaojiedian
-  network: tcp
-  port: 443
-  server: flying-tuna.treefrog761.one
+  name: 3,12,22|🇺🇸_US_美国->🇧🇷_BR_巴西
+  network: ws
+  port: 2052
+  server: 104.18.37.248
   tls: false
   type: vmess
-  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+  uuid: 60bcbd52-0c88-4da3-aee2-cc1f9d5ca224
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 13|美国 076
+  name: 13|日本 002
   network: ws
-  port: 443
-  server: www.visa.com.tw
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: 301fad67-1288-47a9-b3ca-22b823e4e789
-  ws-opts:
-    headers:
-      Host: s2.2go.us.kg
-    path: /
-- cipher: aes-256-gcm
-  name: 1|_US__7
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 38.114.114.207
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|美国 067
-  network: ws
-  port: 8880
-  server: 104.21.1.28
+  port: 80
+  server: 47.245.26.167
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: us-ccs.yuji2022.eu.org
-    path: /XSjeg73o6ZdsheahCb5JG
-- delay: 991
-  name: 13|英国 003
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.9.235.192
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
+      Host: my1.tooters.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: 13|巴西 006
+  name: 13|加拿大 002
   network: ws
   port: 80
-  server: 188.114.96.11
+  server: s1.cn-db.top
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-215-151-174.s1.cn-db.top
+    path: /dabai.in172.64.34.18
+- name: 13|韩国 021
+  network: ws
+  password: Aimer
+  port: 11300
+  server: 221.163.103.29
+  skip-cert-verify: true
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 19|🇭🇰 香港4|@ripaojiedian
+  password: 43e5eeacbad3032bfe4c25a2f011b6b7
+  port: 443
+  server: 104.251.227.182
+  skip-cert-verify: true
+  sni: hezijiasuqi.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US__10
+  network: ws
+  port: 2052
+  server: 104.19.46.123
+  sni: cdn2.freegradely.xyz
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+- alterId: 0
+  cipher: auto
+  name: 13|巴西 005
+  network: ws
+  port: 80
+  server: 188.114.96.113
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -1879,69 +1880,53 @@ proxies:
     headers:
       Host: a.prapt5.ir
     path: /?ed=2048
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: '3,12,22|🇺🇸_US_美国 #4'
-  network: ws
-  port: 2082
-  server: cfcdn1.sanfencdn9.com
+  name: '3,12,22|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
+  network: tcp
+  port: 54002
+  server: 183.240.235.162
   tls: false
   type: vmess
-  uuid: cd0eb936-9e1e-4730-989e-be43e7fcaf3e
-  ws-opts: {}
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 19|🇸🇬 新加坡3|@ripaojiedian
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 103.106.229.219
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 13|美国 061
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 13|韩国 010
   network: ws
-  port: 80
-  server: 104.16.77.74
+  password: Aimer
+  port: 12344
+  server: 222.108.40.235
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
-- cipher: aes-256-cfb
-  name: 1|_FR_->_RU_
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 163.172.64.22
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US_->_CA__1
-  network: ws
-  port: 2086
-  server: 104.19.47.79
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- alterId: 0
-  cipher: auto
-  name: 13|美国 116
-  network: ws
-  port: 443
-  server: plex.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
+  sni: agepw.ambercc.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
   ws-opts:
     headers:
-      Host: telegram-isvvpn.ir
-    path: /racevpn?telegram-
+      Host: agepw.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 13|荷兰 005
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 45.140.88.118
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- name: 13|美国 032
+  network: ws
+  password: 936c6853-6bbf-4e24-8667-ec5b2fc275b3
+  port: 443
+  server: 104.26.14.85
+  sni: md1.safecdn.site
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: md1.safecdn.site
+    path: /Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2-Channel_vpnAndroid2
 - name: 13|韩国 018
   network: ws
   password: Aimer
@@ -1954,42 +1939,6 @@ proxies:
   ws-opts:
     headers:
       Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- client-fingerprint: chrome
-  name: 13|韩国 001
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 221.149.132.232
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 1,8,12|_US_->_CA__4
-  network: ws
-  port: 2086
-  server: 104.19.45.47
-  sni: ip14.freegradely.xyz
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-- name: 13|美国 086
-  network: ws
-  password: Aimer
-  port: 443
-  server: ignacio.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: agepq.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
 - alterId: 0
   cipher: auto
@@ -2005,57 +1954,34 @@ proxies:
     headers:
       Host: a.prapt5.ir
     path: /?ed=2048
-- name: 13|美国 021
-  network: ws
-  password: Aimer
-  port: 8080
-  server: 206.237.13.161
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
-- name: 13|韩国 022
-  network: ws
-  password: Aimer
-  port: 33022
-  server: 222.103.130.244
-  skip-cert-verify: true
-  sni: agepw.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: agepw.ambercc.filegear-sg.me
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 3,12,22|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  name: 12,14|11,12|美国CloudFla...
+  network: ws
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 1,3,8,12,22|_US__9
   network: ws
   port: 2086
-  server: 104.19.47.65
-  tls: false
+  server: 104.18.57.111
+  sni: ip11.freegradely.xyz
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 2,12|🇷🇺_RU_俄罗斯联邦
-  network: tcp
-  port: 35972
-  server: 45.147.200.170
-  tls: false
-  type: vmess
-  uuid: 6a2afda8-8798-434c-8964-1deb4e7655a5
 - client-fingerprint: chrome
-  name: 13|韩国 005
+  name: 13|美国 081
   network: ws
   password: Aimer
-  port: 11288
-  server: 222.114.11.234
+  port: 443
+  server: 154.26.177.9
   skip-cert-verify: true
   sni: agepq.ambercc.filegear-sg.me
   type: trojan
@@ -2064,3 +1990,77 @@ proxies:
     headers:
       Host: agepq.ambercc.filegear-sg.me
     path: /?ed=2560
+- name: 13|美国 026
+  network: ws
+  password: Aimer
+  port: 50005
+  server: 185.183.84.165
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|美国 060
+  network: ws
+  port: 8080
+  server: 104.21.31.244
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.nahck.site
+    path: /
+- cipher: aes-256-cfb
+  name: 1|_SG_
+  password: amazonskr05
+  port: 443
+  server: 54.179.87.28
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US_->_CA__2
+  network: ws
+  port: 2086
+  server: 104.19.46.39
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+- alterId: 0
+  cipher: auto
+  name: 1,8,12|_US__13
+  network: ws
+  port: 2086
+  server: 104.19.46.233
+  sni: ''
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+- client-fingerprint: chrome
+  name: 13|澳大利亚 002
+  network: ws
+  password: Aimer
+  port: 443
+  server: 43.156.253.94
+  skip-cert-verify: true
+  sni: agepq.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: agepq.ambercc.filegear-sg.me
+    path: /?ed=2560
+- delay: 991
+  name: 13|英国 003
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.9.235.192
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
